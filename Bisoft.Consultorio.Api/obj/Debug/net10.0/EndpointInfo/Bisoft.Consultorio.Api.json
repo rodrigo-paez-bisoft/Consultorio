@@ -1,0 +1,72 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Bisoft.Consultorio.Api | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7285"
+    },
+    {
+      "url": "http://localhost:5083"
+    }
+  ],
+  "paths": {
+    "/api/doctores/{doctorId}": {
+      "get": {
+        "tags": [
+          "Bisoft.Consultorio.Api"
+        ],
+        "summary": "Consultar Doctor",
+        "operationId": "Consultar Doctor",
+        "parameters": [
+          {
+            "name": "doctorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/pacientes/{pacienteId}": {
+      "get": {
+        "tags": [
+          "Bisoft.Consultorio.Api"
+        ],
+        "summary": "Consultar Paciente",
+        "operationId": "Consultar Paciente",
+        "parameters": [
+          {
+            "name": "pacienteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Bisoft.Consultorio.Api"
+    }
+  ]
+}

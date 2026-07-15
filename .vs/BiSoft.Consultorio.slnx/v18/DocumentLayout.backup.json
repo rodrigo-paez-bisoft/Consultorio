@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3D13EEA-CD1B-D204-38FE-E5811026359F}|BiSoft.Consultorio.Tests\\BiSoft.Consultorio.Tests.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D13EEA-CD1B-D204-38FE-E5811026359F}|BiSoft.Consultorio.Tests\\BiSoft.Consultorio.Tests.csproj|solutionrelative:bisoft.consultorio.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\entidades\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\dtos\\paciente\\registrarpacienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\dtos\\paciente\\registrarpacienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\entidades\\base\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\entidades\\base\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\validators\\entidades\\personavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\validators\\entidades\\personavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\validators\\entidades\\doctorvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\validators\\entidades\\doctorvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\dtos\\paciente\\consultarpacienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\dtos\\paciente\\consultarpacienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\validators\\stringvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\validators\\stringvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\infraestructura\\repositories\\consultorio\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositories\\consultorio\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\entidades\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\entidades\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\infraestructura\\repositories\\consultorio\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositories\\consultorio\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,93 +42,90 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonaValidator.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Validators\\Entidades\\PersonaValidator.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Validators\\Entidades\\PersonaValidator.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Validators\\Entidades\\PersonaValidator.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Validators\\Entidades\\PersonaValidator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T15:29:35.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Entidades\\Base\\Persona.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Entidades\\Base\\Persona.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Entidades\\Base\\Persona.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Entidades\\Base\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAApwGgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T15:13:21.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Entidades\\Paciente.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Entidades\\Paciente.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Entidades\\Paciente.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Entidades\\Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T15:08:02.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Entidades\\Doctor.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Entidades\\Doctor.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Entidades\\Doctor.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Entidades\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T18:42:57.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StringValidator.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Validators\\StringValidator.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Validators\\StringValidator.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Validators\\StringValidator.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Validators\\StringValidator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T19:26:45.911Z",
+              "WhenOpened": "2026-07-15T22:14:53.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DoctorValidators.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Validators\\Entidades\\DoctorValidators.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Validators\\Entidades\\DoctorValidators.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Validators\\Entidades\\DoctorValidators.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Validators\\Entidades\\DoctorValidators.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Title": "ConsultarPacienteResponse.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\ConsultarPacienteResponse.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\ConsultarPacienteResponse.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\ConsultarPacienteResponse.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\ConsultarPacienteResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T19:22:00.528Z",
+              "WhenOpened": "2026-07-15T21:45:35.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrarPacienteResponse.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\RegistrarPacienteResponse.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\RegistrarPacienteResponse.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\RegistrarPacienteResponse.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\DTOs\\Paciente\\RegistrarPacienteResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T21:42:36.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T21:38:06.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PacienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T21:38:05.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T21:28:08.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCMAAAAeAAAAAAAAAA==",
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T18:36:03.508Z",
+              "WhenOpened": "2026-07-15T21:28:04.694Z",
               "EditorCaption": ""
             }
           ]

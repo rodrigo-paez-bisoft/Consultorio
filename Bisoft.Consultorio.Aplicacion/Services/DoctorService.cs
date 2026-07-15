@@ -24,5 +24,11 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             _logger.LogInformation("Doctor registrado: {DoctorNombre}, Especialidad: {DoctorEspecialidad}", doctor.Nombre, doctor.Especialidad);
             return doctor.Adapt<RegistrarDoctorResponse>();
         }
+        public async Task<ConsultarDoctorResponse> ConsultarDoctor(Guid doctorId)
+        {
+            var doctor = await _doctorDomainService.ObtenerDoctor(doctorId);
+            _logger.LogInformation("Doctor obtenido con id {}", doctorId);
+            return doctor.Adapt<ConsultarDoctorResponse>();
+        }
     }
 }

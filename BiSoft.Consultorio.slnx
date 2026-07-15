@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Bisoft.Consultorio.Api/Bisoft.Consultorio.Api.csproj" Id="77d394fe-19f5-48e2-80a9-355c24104c13" />
   <Project Path="Bisoft.Consultorio.Aplicacion/Bisoft.Consultorio.Aplicacion.csproj" Id="8f740fb5-b8d7-4b36-8daf-4677cc36e3f2" />
   <Project Path="BiSoft.Consultorio.Dominio/BiSoft.Consultorio.Dominio.csproj" />
   <Project Path="BiSoft.Consultorio.Tests/BiSoft.Consultorio.Tests.csproj" />

@@ -7,3 +7,5 @@ C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.pdb
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.csproj.AssemblyReference.cache
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.sourcelink.json

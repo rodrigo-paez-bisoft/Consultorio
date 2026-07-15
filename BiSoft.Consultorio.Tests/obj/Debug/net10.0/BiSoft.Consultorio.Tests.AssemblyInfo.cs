@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BiSoft.Consultorio.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72a718536b640fc348ee58b97b552dfe24ccaa14")]
 [assembly: System.Reflection.AssemblyProductAttribute("BiSoft.Consultorio.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BiSoft.Consultorio.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,7 +39,7 @@ namespace BiSoft.Consultorio.Dominio.Service
         }
         public async Task<Doctor> ObtenerDoctor(Guid doctorId)
         {
-            var doctor = await _doctorRepository.ObtenerDoctor(doctorId) ?? throw new Exception($"No se encontro el doctor con id {doctorId}");
+            var doctor = await _doctorRepository.ObtenerDoctor(doctorId) ?? throw new KeyNotFoundException($"No se encontro el doctor con id {doctorId}");
             _logger.LogInformation("Doctor obtenido: {DoctorNombre}, Especialidad: {DoctorEspecialidad}", doctor.Nombre, doctor.Especialidad);
             return doctor;
         }

@@ -1,0 +1,39 @@
+﻿using BiSoft.Consultorio.Dominio.Entidades;
+using BiSoft.Consultorio.Dominio.Repositories;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.SymbolStore;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace BiSoft.Consultorio.Dominio.Service
+{ 
+    public class PacienteDomainService
+    {
+        private readonly ILogger<PacienteDomainService> _logger;
+        private readonly IPacienteRepository _pacienteRepository;
+        public PacienteDomainService(IPacienteRepository pacienteRepository, ILogger<PacienteDomainService> logger)
+        {
+            _pacienteRepository = pacienteRepository;
+            _logger = logger;
+        }
+        public async Task<Paciente> RegistrarPaciente(string nombre)
+        {
+            var paciente = new Entidades.Paciente(nombre);
+            // Aquí puedes agregar lógica adicional, como guardar el paciente en una base de datos
+            await _pacienteRepository.RegistrarPaciente(paciente);
+            await _pacienteRepository.GuardarCambios();
+            _logger.LogInformation($"Paciente registrado: {paciente.Nombre}");
+            return paciente;
+        }
+        public async Task<Paciente> ObtenerPaciente(Guid pacienteId)
+        {
+            var paciente = await _pacienteRepository.ObtenerPaciente(pacienteId) ?? throw new KeyNotFoundException($"No se encontro el paciente con id {pacienteId}");
+            _logger.LogInformation($"Paciente obtenido: {paciente.Nombre} ");
+            return paciente;
+        }
+    }
+}
