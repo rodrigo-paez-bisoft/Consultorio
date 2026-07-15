@@ -49,5 +49,14 @@ namespace BiSoft.Consultorio.Dominio.Service
             _logger.LogInformation($"Doctores consultados: {doctores.Count()}");
             return doctores;
         }
+        public async Task<Doctor> EliminarDoctor(Guid doctorId)
+        {
+
+            var doctor = await ObtenerDoctor(doctorId);
+            await _doctorRepository.EliminarDoctor(doctor);
+            await _doctorRepository.GuardarCambios();
+            _logger.LogInformation("Doctor eliminado: {DoctorNombre}, Especialidad: {DoctorEspecialidad}", doctor.Nombre, doctor.Especialidad);
+            return doctor;
+        }
     }
 }

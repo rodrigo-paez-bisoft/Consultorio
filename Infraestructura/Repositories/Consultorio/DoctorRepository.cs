@@ -34,5 +34,9 @@ namespace Infraestructura.Repositories.Consultorio
         {
             await _context.Doctores.AddAsync(doctor);
         }
+        public async Task EliminarDoctor(Doctor doctor)
+        {
+            _context.Doctores.Remove(doctor);
+        }
     }
 }
