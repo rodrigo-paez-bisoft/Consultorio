@@ -75,3 +75,10 @@ C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\obj\Debug\net10.0\ref\Bisoft.Consultorio.Api.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Serilog.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Serilog.Sinks.SQLite.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Asp.Versioning.Abstractions.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Asp.Versioning.Http.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Asp.Versioning.Mvc.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

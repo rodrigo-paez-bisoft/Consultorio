@@ -34,7 +34,7 @@ namespace BiSoft.Consultorio.Dominio.Service
             var doctor = await ObtenerDoctor(doctorId);
             doctor.Actualizar(nombre, especialidad);
             await _doctorRepository.GuardarCambios();
-            _logger.LogInformation("Doctor actualizado: {DoctorNombre}, Especialidad: {DoctorEspecialidad}", doctor.Nombre, doctor.Especialidad);
+            _logger.LogInformation($"Doctor actualizado: {doctor.Nombre}, Especialidad: {doctor.Especialidad}");
             return doctor;
         }
         public async Task<Doctor> ObtenerDoctor(Guid doctorId)

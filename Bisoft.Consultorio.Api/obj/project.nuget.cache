@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rXSNnQHnjZE=",
+  "dgSpecHash": "+xnOUSuaFdM=",
   "success": true,
   "projectFilePath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\asp.versioning.http\\7.0.0\\asp.versioning.http.7.0.0.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\asp.versioning.mvc\\7.0.0\\asp.versioning.mvc.7.0.0.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\7.0.0\\asp.versioning.mvc.apiexplorer.7.0.0.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\mapster\\10.0.10\\mapster.10.0.10.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\mapster.core\\10.0.10\\mapster.core.10.0.10.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
@@ -15,28 +19,21 @@
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.9\\microsoft.entityframeworkcore.relational.10.0.9.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\10.0.9\\microsoft.entityframeworkcore.sqlite.10.0.9.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\10.0.9\\microsoft.entityframeworkcore.sqlite.core.10.0.9.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.9\\microsoft.extensions.dependencymodel.10.0.9.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\serilog\\4.3.1\\serilog.4.3.1.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\serilog.sinks.sqlite\\7.0.0\\serilog.sinks.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
     "C:\\Users\\rodrigo.paez\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.3\\swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "El paquete \"Microsoft.OpenApi\" 2.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
-      "libraryId": "Microsoft.OpenApi",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
     {
       "code": "NU1903",
       "level": "Warning",

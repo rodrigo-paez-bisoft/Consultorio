@@ -35,6 +35,14 @@ namespace BiSoft.Consultorio.Dominio.Service
             _logger.LogInformation($"Paciente obtenido: {paciente.Nombre} ");
             return paciente;
         }
+        public async Task<Paciente> ActualizarPaciente(Guid pacienteId, string nombre)
+        {
+            var paciente = await ObtenerPaciente(pacienteId);
+            paciente.Actualizar(nombre);
+            await _pacienteRepository.GuardarCambios();
+            _logger.LogInformation($"Paciente actualizado: {paciente.Nombre} ");
+            return paciente;
+        }
         public async Task<Paciente> EliminarPaciente(Guid pacienteId)
         {
             var paciente = await ObtenerPaciente(pacienteId);

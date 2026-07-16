@@ -8,13 +8,57 @@
     ".NETCoreApp,Version=v10.0": {
       "Bisoft.Consultorio.Api/1.0.0": {
         "dependencies": {
+          "Asp.Versioning.Http": "7.0.0",
+          "Asp.Versioning.Mvc.ApiExplorer": "7.0.0",
           "Bisoft.Consultorio.Aplicacion": "1.0.0",
           "Infraestructura": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "10.0.9",
-          "Serilog.Sinks.SQLite": "7.0.0"
+          "Serilog.Sinks.SQLite": "7.0.0",
+          "Swashbuckle.AspNetCore": "10.2.3"
         },
         "runtime": {
           "Bisoft.Consultorio.Api.dll": {}
+        }
+      },
+      "Asp.Versioning.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.8377.36721"
+          }
+        }
+      },
+      "Asp.Versioning.Http/7.0.0": {
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Http.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.8377.36721"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc/7.0.0": {
+        "dependencies": {
+          "Asp.Versioning.Http": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Mvc.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.8377.36721"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/7.0.0": {
+        "dependencies": {
+          "Asp.Versioning.Mvc": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.8377.36726"
+          }
         }
       },
       "Mapster/10.0.10": {
@@ -38,7 +82,7 @@
       },
       "Microsoft.AspNetCore.OpenApi/10.0.9": {
         "dependencies": {
-          "Microsoft.OpenApi": "2.0.0"
+          "Microsoft.OpenApi": "2.7.5"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
@@ -118,11 +162,11 @@
           }
         }
       },
-      "Microsoft.OpenApi/2.0.0": {
+      "Microsoft.OpenApi/2.7.5": {
         "runtime": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "assemblyVersion": "2.7.5.0",
+            "fileVersion": "2.7.5.0"
           }
         }
       },
@@ -295,6 +339,43 @@
           }
         }
       },
+      "Swashbuckle.AspNetCore/10.2.3": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.2.3",
+          "Swashbuckle.AspNetCore.SwaggerGen": "10.2.3",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.2.3"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/10.2.3": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.7.5"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "10.2.3.0",
+            "fileVersion": "10.2.3.2721"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/10.2.3": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.2.3"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "10.2.3.0",
+            "fileVersion": "10.2.3.2721"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/10.2.3": {
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "10.2.3.0",
+            "fileVersion": "10.2.3.2721"
+          }
+        }
+      },
       "Bisoft.Consultorio.Aplicacion/1.0.0": {
         "dependencies": {
           "BiSoft.Consultorio.Dominio": "1.0.0",
@@ -335,6 +416,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Asp.Versioning.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yujGpbGBCViHvYiBJD0S5XFgOI+f5bGvi8tnfMJV6EC0b8SAqBn1YC+yCnJjQo3D2XP9TmSuKIJ7ofVy58GcuQ==",
+      "path": "asp.versioning.abstractions/7.0.0",
+      "hashPath": "asp.versioning.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Http/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FG5grz29CYBT06xDWoM1hf+pfB7sPDYXuOOIYtVNIHduUQeWsxMfCITcDrMmZNXAf0TfcYRwCizJfOIJzWmaXA==",
+      "path": "asp.versioning.http/7.0.0",
+      "hashPath": "asp.versioning.http.7.0.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wcaXjeBLbDcSXLXtEJrVPXd8amRuINd/7SNYwMRrwwzQi6QMeJXqFZrFM+Bs4Tmd1C5pXBT51wedFG+zbN7Mzw==",
+      "path": "asp.versioning.mvc/7.0.0",
+      "hashPath": "asp.versioning.mvc.7.0.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eN3Htqa+CWtzTGuOQZsoMJtcTf85ng+5Fg1NJjrCcGfgTB2BA946b3F7eUuo0sPFAQNcKP1cO5VxcO9WiqbmCA==",
+      "path": "asp.versioning.mvc.apiexplorer/7.0.0",
+      "hashPath": "asp.versioning.mvc.apiexplorer.7.0.0.nupkg.sha512"
     },
     "Mapster/10.0.10": {
       "type": "package",
@@ -406,12 +515,12 @@
       "path": "microsoft.extensions.dependencymodel/10.0.9",
       "hashPath": "microsoft.extensions.dependencymodel.10.0.9.nupkg.sha512"
     },
-    "Microsoft.OpenApi/2.0.0": {
+    "Microsoft.OpenApi/2.7.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
-      "path": "microsoft.openapi/2.0.0",
-      "hashPath": "microsoft.openapi.2.0.0.nupkg.sha512"
+      "sha512": "sha512-0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+      "path": "microsoft.openapi/2.7.5",
+      "hashPath": "microsoft.openapi.2.7.5.nupkg.sha512"
     },
     "Serilog/4.3.1": {
       "type": "package",
@@ -454,6 +563,34 @@
       "sha512": "sha512-Y/0ZkR+r0Cg3DQFuCl1RBnv/tmxpIZRU3HUvelPw6MVaKHwYYR8YNvgs0vuNuXCMvlyJ+Fh88U1D4tah1tt6qw==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.11",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/10.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8KNh1RWvofdU6DVLyBs4Z/OpUMnmf8oNvJQc0QxpwySRbi42bwLfdVMMrXZWANg5U5KQGQq1xW6r/hlcqw99tQ==",
+      "path": "swashbuckle.aspnetcore/10.2.3",
+      "hashPath": "swashbuckle.aspnetcore.10.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/10.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1jUUs3WQnrS0FUtaZPLSy1yYMEwS1zlvDmvQ2/eldPHUANX0LJSLVZecCMgSMdeGiRqeaRrIXLtSz++TCiTMww==",
+      "path": "swashbuckle.aspnetcore.swagger/10.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/10.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y7t4coDRAeFYChmvlMRiH2OjbiRrm9AVIDgt17fQfs3x9PVAI5PiwWYOhg+4F13R4Q36WDc9lqfoOnNa3tNbGg==",
+      "path": "swashbuckle.aspnetcore.swaggergen/10.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/10.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nthWONRs/FJ4yyG206g1cC52WEG8EqrjuMWjGdR+5XG7lbjFto6NqcI9EMICgVFom/UivIjUVwI76ZHbHwTPfQ==",
+      "path": "swashbuckle.aspnetcore.swaggerui/10.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
     },
     "Bisoft.Consultorio.Aplicacion/1.0.0": {
       "type": "project",

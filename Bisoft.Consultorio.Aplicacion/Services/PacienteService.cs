@@ -31,6 +31,12 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             _logger.LogInformation("Paciente obtenido con id {}", pacienteId);
             return paciente.Adapt<ConsultarPacienteResponse>();
         }
+        public async Task<ActualizarPacienteResponse> ActualizarPaciente(Guid pacienteId, string nombre)
+        {
+            var paciente = await _pacienteDomainService.ActualizarPaciente(pacienteId, nombre);
+            _logger.LogInformation("Paciente actualizado con id {}", pacienteId);
+            return paciente.Adapt<ActualizarPacienteResponse>();
+        }
         public async Task<EliminarPacienteResponse> EliminarPaciente(Guid pacienteId)
         {
             var paciente = await _pacienteDomainService.EliminarPaciente(pacienteId);

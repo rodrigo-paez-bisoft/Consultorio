@@ -1,25 +1,90 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "Bisoft.Consultorio.Api | v1",
-    "version": "1.0.0"
+    "title": "Bisoft.Consultorio.Api",
+    "version": "1.0"
   },
-  "servers": [
-    {
-      "url": "https://localhost:7285"
-    },
-    {
-      "url": "http://localhost:5083"
-    }
-  ],
   "paths": {
     "/api/doctores/{doctorId}": {
       "get": {
         "tags": [
-          "Bisoft.Consultorio.Api"
+          "Doctores"
         ],
         "summary": "Consultar Doctor",
+        "description": "Consulta un doctor por su ID.",
         "operationId": "Consultar Doctor",
+        "parameters": [
+          {
+            "name": "doctorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultarDoctorResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Doctores"
+        ],
+        "summary": "ActualizarDoctor",
+        "description": "Actualiza un nuevo doctor en el sistema.",
+        "operationId": "ActualizarDoctor",
+        "parameters": [
+          {
+            "name": "doctorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarDoctorRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrarDoctorResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Doctores"
+        ],
+        "summary": "EliminarDoctor",
+        "description": "Elimina un doctor existente en el sistema.",
+        "operationId": "EliminarDoctor",
         "parameters": [
           {
             "name": "doctorId",
@@ -38,13 +103,117 @@
         }
       }
     },
+    "/api/doctores/api/doctores": {
+      "post": {
+        "tags": [
+          "Doctores"
+        ],
+        "summary": "RegistrarDoctor",
+        "description": "Registra un nuevo doctor en el sistema.",
+        "operationId": "RegistrarDoctor",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarDoctorRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrarDoctorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/pacientes/{pacienteId}": {
       "get": {
         "tags": [
-          "Bisoft.Consultorio.Api"
+          "Pacientes"
         ],
         "summary": "Consultar Paciente",
         "operationId": "Consultar Paciente",
+        "parameters": [
+          {
+            "name": "pacienteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultarPacienteResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Pacientes"
+        ],
+        "summary": "ActualizarPaciente",
+        "description": "Actualiza un nuevo paciente en el sistema.",
+        "operationId": "ActualizarPaciente",
+        "parameters": [
+          {
+            "name": "pacienteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarPacienteRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrarPacienteRequest"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Pacientes"
+        ],
+        "summary": "EliminarPaciente",
+        "description": "Elimina un paciente existente por su ID.",
+        "operationId": "EliminarPaciente",
         "parameters": [
           {
             "name": "pacienteId",
@@ -62,11 +231,162 @@
           }
         }
       }
+    },
+    "/api/pacientes/api/pacientes": {
+      "post": {
+        "tags": [
+          "Pacientes"
+        ],
+        "summary": "RegistrarPaciente",
+        "description": "Registra un nuevo paciente en el sistema.",
+        "operationId": "RegistrarPaciente",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarPacienteRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrarPacienteResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ActualizarDoctorRequest": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActualizarPacienteRequest": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultarDoctorResponse": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultarPacienteResponse": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrarDoctorRequest": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrarDoctorResponse": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrarPacienteRequest": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrarPacienteResponse": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "tags": [
     {
-      "name": "Bisoft.Consultorio.Api"
+      "name": "Doctores"
+    },
+    {
+      "name": "Pacientes"
     }
   ]
 }

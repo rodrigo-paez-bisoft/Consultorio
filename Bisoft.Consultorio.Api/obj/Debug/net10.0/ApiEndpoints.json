@@ -1,9 +1,74 @@
 [
   {
-    "ContainingType": "Bisoft.Consultorio.Api.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_1",
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.ConsultarDoctor\u002B\u003C\u003Ec",
+    "Method": "\u003CMapConsultarDoctoresEndpoint\u003Eb__0_0",
     "RelativePath": "api/doctores/{doctorId}",
     "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.ConsultarDoctorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Doctores"
+    ],
+    "EndpointName": "Consultar Doctor",
+    "Description": "Consulta un doctor por su ID.",
+    "Summary": "Consultar Doctor"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.ActualizarDoctor\u002B\u003C\u003Ec",
+    "Method": "\u003CMapActualizarDoctorEndponint\u003Eb__1_0",
+    "RelativePath": "api/doctores/{doctorId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Doctor.ActualizarDoctorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.RegistrarDoctorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Doctores"
+    ],
+    "EndpointName": "ActualizarDoctor",
+    "Description": "Actualiza un nuevo doctor en el sistema.",
+    "Summary": "ActualizarDoctor"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.EliminarDoctor\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEliminarDoctorEndponint\u003Eb__1_0",
+    "RelativePath": "api/doctores/{doctorId}",
+    "HttpMethod": "DELETE",
     "IsController": false,
     "Order": 0,
     "Parameters": [
@@ -20,14 +85,112 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "Consultar Doctor",
-    "Summary": "Consultar Doctor"
+    "Tags": [
+      "Doctores"
+    ],
+    "EndpointName": "EliminarDoctor",
+    "Description": "Elimina un doctor existente en el sistema.",
+    "Summary": "EliminarDoctor"
   },
   {
-    "ContainingType": "Bisoft.Consultorio.Api.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_2",
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.RegistrarDoctor\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRegistrarDoctorEndponint\u003Eb__1_0",
+    "RelativePath": "api/doctores/api/doctores",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Doctor.RegistrarDoctorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.RegistrarDoctorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Doctores"
+    ],
+    "EndpointName": "RegistrarDoctor",
+    "Description": "Registra un nuevo doctor en el sistema.",
+    "Summary": "RegistrarDoctor"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Pacientes.ConsultarPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CMapConsultarPacientesEndpoint\u003Eb__1_0",
     "RelativePath": "api/pacientes/{pacienteId}",
     "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacienteId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Paciente.ConsultarPacienteResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Pacientes"
+    ],
+    "EndpointName": "Consultar Paciente",
+    "Summary": "Consultar Paciente"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Pacientes.ActualizarPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CMapActualizarPacienteEndponint\u003Eb__1_0",
+    "RelativePath": "api/pacientes/{pacienteId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacienteId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Paciente.ActualizarPacienteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Api.DTOs.Paciente.RegistrarPacienteRequest",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Pacientes"
+    ],
+    "EndpointName": "ActualizarPaciente",
+    "Description": "Actualiza un nuevo paciente en el sistema.",
+    "Summary": "ActualizarPaciente"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Pacientes.EliminarPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEliminarPacienteEndponint\u003Eb__1_0",
+    "RelativePath": "api/pacientes/{pacienteId}",
+    "HttpMethod": "DELETE",
     "IsController": false,
     "Order": 0,
     "Parameters": [
@@ -44,7 +207,41 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "Consultar Paciente",
-    "Summary": "Consultar Paciente"
+    "Tags": [
+      "Pacientes"
+    ],
+    "EndpointName": "EliminarPaciente",
+    "Description": "Elimina un paciente existente por su ID.",
+    "Summary": "EliminarPaciente"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Pacientes.RegistrarPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRegistrarPacienteEndponint\u003Eb__1_0",
+    "RelativePath": "api/pacientes/api/pacientes",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Paciente.RegistrarPacienteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Paciente.RegistrarPacienteResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Pacientes"
+    ],
+    "EndpointName": "RegistrarPaciente",
+    "Description": "Registra un nuevo paciente en el sistema.",
+    "Summary": "RegistrarPaciente"
   }
 ]

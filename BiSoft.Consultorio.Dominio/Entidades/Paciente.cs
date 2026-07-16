@@ -11,5 +11,6 @@ namespace BiSoft.Consultorio.Dominio.Entidades
         
         private Paciente() { }
         public Paciente(string nombre) : base(nombre)   {}
+        
     }
 }
