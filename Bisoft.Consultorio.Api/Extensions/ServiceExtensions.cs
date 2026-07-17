@@ -2,8 +2,8 @@
 using Bisoft.Consultorio.Aplicacion.Services;
 using BiSoft.Consultorio.Dominio.Repositories;
 using BiSoft.Consultorio.Dominio.Service;
-using Infraestructura.Context;
-using Infraestructura.Repositories.Consultorio;
+using BiSoft.Consultorio.Infraestructura.Context;
+using BiSoft.Consultorio.Infraestructura.Repositories.Consultorio;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -23,6 +23,10 @@ namespace Bisoft.Consultorio.Api.Extensions
             services.AddScoped<PacienteService>();
             services.AddScoped<PacienteDomainService>();
             services.AddScoped<IPacienteRepository, PacienteRepository>();
+
+            services.AddScoped<SalaService>();
+            services.AddScoped<SalaDomainService>();
+            services.AddScoped<ISalaRepository>, SalaRepository();
             return services;
         }
         public static IServiceCollection InyectarContextos(this IServiceCollection services, string connectionString)

@@ -1035,9 +1035,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Infraestructura.csproj",
-      "projectName": "Infraestructura",
-      "projectPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj",
+      "projectName": "BiSoft.Consultorio.Infraestructura",
+      "projectPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj",
       "packagesPath": "C:\\Users\\rodrigo.paez\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\obj\\",
       "projectStyle": "PackageReference",

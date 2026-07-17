@@ -3,5 +3,5 @@
   <Project Path="Bisoft.Consultorio.Aplicacion/Bisoft.Consultorio.Aplicacion.csproj" Id="8f740fb5-b8d7-4b36-8daf-4677cc36e3f2" />
   <Project Path="BiSoft.Consultorio.Dominio/BiSoft.Consultorio.Dominio.csproj" />
   <Project Path="BiSoft.Consultorio.Tests/BiSoft.Consultorio.Tests.csproj" />
-  <Project Path="Infraestructura/Infraestructura.csproj" Id="2ebcae31-7346-40ba-b3e4-34f3401b45e6" />
+  <Project Path="Infraestructura/BiSoft.Consultorio.Infraestructura.csproj" Id="2ebcae31-7346-40ba-b3e4-34f3401b45e6" />
 </Solution>

@@ -1,12 +1,12 @@
 ﻿using BiSoft.Consultorio.Dominio.Entidades;
 using BiSoft.Consultorio.Dominio.Repositories;
-using Infraestructura.Context;
+using BiSoft.Consultorio.Infraestructura.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Infraestructura.Repositories.Consultorio
+namespace BiSoft.Consultorio.Infraestructura.Repositories.Consultorio
 {
     public class DoctorRepository : IDoctorRepository
     {

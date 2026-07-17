@@ -9,5 +9,6 @@ namespace Bisoft.Consultorio.Aplicacion.DTOs.Doctor
         public string Nombre { get; set; } = string.Empty;
         public Guid Id { get; set; }
         public string Especialidad { get; set; } = string.Empty;
+        public int Status { get; set; }
     }
 }

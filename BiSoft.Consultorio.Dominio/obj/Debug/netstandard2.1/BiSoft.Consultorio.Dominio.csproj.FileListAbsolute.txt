@@ -1,11 +1,11 @@
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\bin\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.deps.json
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\bin\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\bin\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.pdb
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.csproj.AssemblyReference.cache
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.AssemblyInfoInputs.cache
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.AssemblyInfo.cs
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.sourcelink.json
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.pdb
-C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.csproj.AssemblyReference.cache
-C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Dominio\obj\Debug\netstandard2.1\BiSoft.Consultorio.Dominio.sourcelink.json

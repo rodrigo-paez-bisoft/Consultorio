@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Infraestructura.Mapping.Consultorio.Sqlite
+namespace BiSoft.Consultorio.Infraestructura.Mapping.Consultorio.Sqlite
 {
     public class DoctorSqliteConfiguration : IEntityTypeConfiguration<Doctor>
     {

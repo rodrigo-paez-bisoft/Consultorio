@@ -2,7 +2,7 @@ using BiSoft.Consultorio.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infraestructura.Mapping.Consultorio.Sqlite
+namespace BiSoft.Consultorio.Infraestructura.Mapping.Consultorio.Sqlite
 {
     public class PacienteSqliteConfiguration : IEntityTypeConfiguration<Paciente>
     {

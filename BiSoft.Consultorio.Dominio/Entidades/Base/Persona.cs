@@ -9,14 +9,16 @@ namespace BiSoft.Consultorio.Dominio.Entidades.Base
     {
         public Guid Id { get; }
         public string Nombre { get; private set; }
+        public int Status { get; private set; }
         protected Persona() { }
         protected Persona(string nombre) {
             Id = Guid.NewGuid();
             Nombre = nombre.validateNombre();
+            Status = 1;
         }
         public void Actualizar(string nombre)
         {
-            Nombre = nombre;
+            Nombre = nombre.validateNombre();
         }
     }
 }

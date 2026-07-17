@@ -9,6 +9,8 @@ C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\BiSoft.Consultorio.Tests.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\BiSoft.Consultorio.Tests.pdb
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -92,12 +94,10 @@ C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.AssemblyInfoInputs.cache
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.AssemblyInfo.cs
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.sourcelink.json
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.C.48408803.Up2Date
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\refint\BiSoft.Consultorio.Tests.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.pdb
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.genruntimeconfig.cache
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\ref\BiSoft.Consultorio.Tests.dll
-C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\BiSoft.Consultorio.Tests\obj\Debug\net10.0\BiSoft.Consultorio.Tests.sourcelink.json
