@@ -1,9 +1,17 @@
 {
-  "openapi": "3.0.4",
+  "openapi": "3.1.1",
   "info": {
-    "title": "Bisoft.Consultorio.Api",
-    "version": "1.0"
+    "title": "Bisoft.Consultorio.Api | v1",
+    "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "https://localhost:7285"
+    },
+    {
+      "url": "http://localhost:5083"
+    }
+  ],
   "paths": {
     "/api/doctores/{doctorId}": {
       "get": {
@@ -34,6 +42,15 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       },
@@ -75,6 +92,15 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       },
@@ -99,6 +125,15 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       }
@@ -131,6 +166,15 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       }
@@ -163,6 +207,15 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       },
@@ -204,6 +257,15 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       },
@@ -228,6 +290,15 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       }
@@ -260,6 +331,15 @@
                 }
               }
             }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
           }
         }
       }
@@ -271,113 +351,93 @@
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "especialidad": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "ActualizarPacienteRequest": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "ConsultarDoctorResponse": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "id": {
             "type": "string",
             "format": "uuid"
           },
           "especialidad": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "ConsultarPacienteResponse": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "id": {
             "type": "string",
             "format": "uuid"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "RegistrarDoctorRequest": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "especialidad": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "RegistrarDoctorResponse": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "id": {
             "type": "string",
             "format": "uuid"
           },
           "especialidad": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "RegistrarPacienteRequest": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "RegistrarPacienteResponse": {
         "type": "object",
         "properties": {
           "nombre": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "id": {
             "type": "string",
             "format": "uuid"
           }
-        },
-        "additionalProperties": false
+        }
       }
     }
   },

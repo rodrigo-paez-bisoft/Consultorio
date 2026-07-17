@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\bisoft.consultorio.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\bisoft.consultorio.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\bisoft.consultorio.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\bisoft.consultorio.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\extensions\\endponints\\healthchecksmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\extensions\\endponints\\healthchecksmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\helpers\\healthchecks\\databasehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\helpers\\healthchecks\\databasehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\infraestructura\\repositories\\consultorio\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositories\\consultorio\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\infraestructura\\context\\consultoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\context\\consultoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\infraestructura\\repositories\\consultorio\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EBCAE31-7346-40BA-B3E4-34F3401B45E6}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\repositories\\consultorio\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\service\\doctordomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\service\\doctordomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\service\\pacientedomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\service\\pacientedomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\endpoints\\pacientes\\actualizarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\pacientes\\actualizarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\endpoints\\doctores\\actualizardoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\doctores\\actualizardoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PacienteService.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:26:43.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bisoft.Consultorio.Aplicacion",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj",
-              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Bisoft.Consultorio.Api",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-16T23:26:34.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PacienteDomainService.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:25:34.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ActualizarPaciente.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:24:30.488Z",
+              "WhenOpened": "2026-07-17T18:40:57.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DoctorDomainService.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:10:25.416Z",
+              "Title": "Infraestructura",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Infraestructura.csproj",
+              "RelativeDocumentMoniker": "Infraestructura\\Infraestructura.csproj",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Infraestructura.csproj",
+              "RelativeToolTip": "Infraestructura\\Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-17T18:39:49.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DoctorService.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\DoctorService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ConsultorioContext.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Context\\ConsultorioContext.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Context\\ConsultorioContext.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Context\\ConsultorioContext.cs",
+              "RelativeToolTip": "Infraestructura\\Context\\ConsultorioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:05:48.139Z",
+              "WhenOpened": "2026-07-17T18:37:44.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ActualizarDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Doctores\\ActualizarDoctor.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Doctores\\ActualizarDoctor.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Doctores\\ActualizarDoctor.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Doctores\\ActualizarDoctor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Title": "PacienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T23:04:26.394Z",
+              "WhenOpened": "2026-07-17T18:31:20.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseHealthCheck.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Helpers\\HealthChecks\\DatabaseHealthCheck.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Helpers\\HealthChecks\\DatabaseHealthCheck.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Helpers\\HealthChecks\\DatabaseHealthCheck.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Helpers\\HealthChecks\\DatabaseHealthCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T15:53:58.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthChecksMapping.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\Endponints\\HealthChecksMapping.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Extensions\\Endponints\\HealthChecksMapping.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\Endponints\\HealthChecksMapping.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Extensions\\Endponints\\HealthChecksMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T15:32:45.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T15:19:18.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T15:21:17.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T23:40:02.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA4wCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T23:38:11.976Z",
               "EditorCaption": ""
             }
           ]

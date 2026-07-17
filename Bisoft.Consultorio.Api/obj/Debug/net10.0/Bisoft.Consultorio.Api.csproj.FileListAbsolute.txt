@@ -82,3 +82,5 @@ C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\HealthChecks.UI.Client.dll
+C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Api\bin\Debug\net10.0\HealthChecks.UI.Core.dll

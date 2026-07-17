@@ -1,5 +1,6 @@
 using Bisoft.Consultorio.Api.DTOs.Doctor;
 using Bisoft.Consultorio.Api.Extensions;
+using Bisoft.Consultorio.Api.Extensions.Endponints;
 using Bisoft.Consultorio.Api.Middlewares;
 using Bisoft.Consultorio.Aplicacion.Services;
 using BiSoft.Consultorio.Dominio.Repositories;
@@ -16,6 +17,8 @@ namespace Bisoft.Consultorio.Api
 {
     public class Program
     {
+        public const string RATE_LIMITER_POLICY_NAME = "FIXED";
+        public const string CORS_POLICY_NAME = "AllowAll";
         public static void Main(string[] args)
         {
             try
@@ -28,19 +31,12 @@ namespace Bisoft.Consultorio.Api
                     throw new InvalidOperationException("SQLite connection string is not configured. Check appsettings.json for DatabaseConnections:Consultorio:ConnectionString.");
                 }
                 //Inyeccion de servicios
-                builder.Services.AddScoped<DoctorService>();
-                builder.Services.AddScoped<DoctorDomainService>();
-                builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
-
-                builder.Services.AddScoped<PacienteService>();
-                builder.Services.AddScoped<PacienteDomainService>();
-                builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
-                //Base de datos
-                builder.Services.AddDbContext<ConsultorioContext>(
-
-                    options => options.UseSqlite(connectionString)
-                );
-
+                builder.Services.InyectarServicios()
+                                .ConfigurarSwagger()
+                                .ConfigurarCors()
+                                .InyectarContextos(connectionString) 
+                                .ConfigurarHealthChecks(connectionString)
+                                .ConfigureRateLimiter(2);
                 //
                 Log.Logger = new LoggerConfiguration()
                     .WriteTo.SQLite(
@@ -48,23 +44,6 @@ namespace Bisoft.Consultorio.Api
                         tableName: "Logs",
                         restrictedToMinimumLevel: Serilog.Events.LogEventLevel.Information
                     ).CreateLogger();
-
-                //OpenAPI
-                builder.Services.AddEndpointsApiExplorer();
-                builder.Services.AddSwaggerGen();
-                //Cors
-                builder.Services.AddCors(options =>
-                {
-                    options.AddPolicy("AllowAll", 
-                        builder =>
-                        {
-                            builder.AllowAnyOrigin()
-                                .AllowAnyMethod()
-                                .AllowAnyHeader();
-                        });
-                });
-                //builder.Services.Add
-
                 // Add services to the container.
                 builder.Services.AddAuthorization();
 
@@ -93,10 +72,11 @@ namespace Bisoft.Consultorio.Api
                 app.UseSwagger();
                 app.UseSwaggerUI();
                 //Cors
-                app.UseCors("AllowAll");
+                app.UseCors(CORS_POLICY_NAME);
                 app.UseMiddleware<ErrorHandlerMiddleware>();
-
+                app.AddHealthChecks(RATE_LIMITER_POLICY_NAME);
                 app.MapEndpoints();
+                app.UseRateLimiter();
                 app.Run();
             }
             catch (Exception ex)
