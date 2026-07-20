@@ -1,5 +1,128 @@
 [
   {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.ConsultarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapConsultarCitasEndpoint\u003Eb__0_0",
+    "RelativePath": "api/citas/{citaId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Cita.ConsultarCitaResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "Consultar Cita",
+    "Description": "Consulta una cita por su ID.",
+    "Summary": "Consultar Cita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.ActualizarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapActualizarCitaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/citas/{citaId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Cita.ActualizarCitaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Cita.ActualizarCitaResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "ActualizarCita",
+    "Description": "Actualiza una cita existente en el sistema.",
+    "Summary": "ActualizarCita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.EliminarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEliminarCitaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/citas/{citaId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "EliminarCita",
+    "Description": "Elimina una cita existente en el sistema.",
+    "Summary": "EliminarCita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.RegistrarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRegistrarCitaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/citas/api/citas",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Cita.RegistrarCitaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Cita.RegistrarCitaResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "RegistrarCita",
+    "Description": "Registra una nueva cita en el sistema.",
+    "Summary": "RegistrarCita"
+  },
+  {
     "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.ConsultarDoctor\u002B\u003C\u003Ec",
     "Method": "\u003CMapConsultarDoctoresEndpoint\u003Eb__0_0",
     "RelativePath": "api/doctores/{doctorId}",
@@ -243,5 +366,127 @@
     "EndpointName": "RegistrarPaciente",
     "Description": "Registra un nuevo paciente en el sistema.",
     "Summary": "RegistrarPaciente"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Salas.ConsultarSala\u002B\u003C\u003Ec",
+    "Method": "\u003CMapConsultarSalasEndpoint\u003Eb__1_0",
+    "RelativePath": "api/salas/{salaId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Sala.ConsultaSalaResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Salas"
+    ],
+    "EndpointName": "ConsultarSala",
+    "Summary": "ConsultarSala"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Salas.ActualizarSala\u002B\u003C\u003Ec",
+    "Method": "\u003CMapActualizarSalaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/salas/{salaId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Sala.ActualizarSalaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Api.DTOs.Sala.RegistraSalaRequest",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Salas"
+    ],
+    "EndpointName": "ActualizarSala",
+    "Description": "Actualiza una nueva sala en el sistema",
+    "Summary": "ActualizarSala"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Salas.EliminarSala\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEliminarSalaEndponint\u003Eb__1_0",
+    "RelativePath": "api/salas/{salaId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Salas"
+    ],
+    "EndpointName": "EliminarSala",
+    "Description": "Elimina una sala existente por su ID.",
+    "Summary": "EliminarSala"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Salas.RegistrarSala\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRegistrarSalaEndponint\u003Eb__1_0",
+    "RelativePath": "api/salas/api/Salas",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Sala.RegistraSalaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Sala.RegistraSalaResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Salas"
+    ],
+    "EndpointName": "RegistrarSala",
+    "Description": "Registra una nueva sala en el sistema.",
+    "Summary": "RegistrarSala"
   }
 ]

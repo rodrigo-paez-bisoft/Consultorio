@@ -1,0 +1,30 @@
+﻿using Bisoft.Consultorio.Api.DTOs.Sala;
+using Bisoft.Consultorio.Aplicacion.Services;
+using Microsoft.AspNetCore.Mvc;
+namespace Bisoft.Consultorio.Api.Endpoints.Salas
+{
+    public static class ActualizarSala
+    {
+        private const string ENDPOINT_NAME = "ActualizarSala";
+        public static RouteGroupBuilder MapActualizarSalaEndpoint(this RouteGroupBuilder group)
+        {
+            group.MapPut("{salaId}",
+                async (
+                    [FromRoute] Guid salaId,
+                    [FromBody] ActualizarSalaRequest request,
+                    SalaService salaService,
+                    CancellationToken ct
+                ) =>
+                {
+                    var sala = await salaService.RegistrarSala(request.Nombre);
+                    return Results.Ok(sala);
+                }
+            )
+                .Produces<RegistraSalaRequest>(StatusCodes.Status200OK)
+                .WithDescription("Actualiza una nueva sala en el sistema")
+                .WithSummary(ENDPOINT_NAME)
+                .WithName(ENDPOINT_NAME);
+            return group;
+        }
+    }
+}

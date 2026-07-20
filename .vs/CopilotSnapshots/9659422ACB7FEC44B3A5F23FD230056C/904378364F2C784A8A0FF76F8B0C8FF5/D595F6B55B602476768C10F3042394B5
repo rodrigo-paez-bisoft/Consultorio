@@ -1,0 +1,80 @@
+﻿using BiSoft.Consultorio.Dominio.Entidades;
+using BiSoft.Consultorio.Dominio.Repositories;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BiSoft.Consultorio.Dominio.Service
+{
+    public class CitaDomainService
+    {
+        private readonly ILogger<CitaDomainService> _logger;
+        private readonly ICitaRepository _citaRepository;
+
+        public CitaDomainService(ICitaRepository citaRepository, ILogger<CitaDomainService> logger)
+        {
+            _citaRepository = citaRepository;
+            _logger = logger;
+        }
+
+        public async Task<Cita> RegistrarCita(DateTime fecha, string motivo, int status, Guid pacienteId, Guid doctorId, Guid salaId, string sala)
+        {
+            var cita = new Cita
+            {
+                Id = Guid.NewGuid(),
+                Fecha = fecha,
+                Motivo = motivo,
+                Status = status,
+                PacienteId = pacienteId,
+                DoctorId = doctorId,
+                SalaId = salaId,
+                Sala = sala
+            };
+
+            await _citaRepository.RegistrarCita(cita);
+            await _citaRepository.GuardarCambios();
+            _logger.LogInformation("Cita registrada: Id={CitaId}, Fecha={CitaFecha}, Motivo={CitaMotivo}", cita.Id, cita.Fecha, cita.Motivo);
+            return cita;
+        }
+
+        public async Task<Cita> ActualizarCita(Guid citaId, DateTime fecha, string motivo, int status, Guid salaId, string sala)
+        {
+            var cita = await ObtenerCita(citaId);
+            cita.Fecha = fecha;
+            cita.Motivo = motivo;
+            cita.Status = status;
+            cita.SalaId = salaId;
+            cita.Sala = sala;
+
+            await _citaRepository.GuardarCambios();
+            _logger.LogInformation("Cita actualizada: Id={CitaId}, Fecha={CitaFecha}", cita.Id, cita.Fecha);
+            return cita;
+        }
+
+        public async Task<Cita> ObtenerCita(Guid citaId)
+        {
+            var cita = await _citaRepository.ObtenerCita(citaId) ?? throw new KeyNotFoundException($"No se encontró la cita con id {citaId}");
+            _logger.LogInformation("Cita obtenida: Id={CitaId}, Fecha={CitaFecha}, Motivo={CitaMotivo}", cita.Id, cita.Fecha, cita.Motivo);
+            return cita;
+        }
+
+        public IQueryable<Cita> ConsultarCitas()
+        {
+            var citas = _citaRepository.ConsultarCitas();
+            _logger.LogInformation("Citas consultadas: Total={CitasCount}", citas.Count());
+            return citas;
+        }
+
+        public async Task<Cita> EliminarCita(Guid citaId)
+        {
+            var cita = await ObtenerCita(citaId);
+            await _citaRepository.EliminarCita(cita);
+            await _citaRepository.GuardarCambios();
+            _logger.LogInformation("Cita eliminada: Id={CitaId}, Fecha={CitaFecha}, Motivo={CitaMotivo}", cita.Id, cita.Fecha, cita.Motivo);
+            return cita;
+        }
+    }
+}

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "8Ny390Eyabo=",
+  "dgSpecHash": "fnqqltH7eIo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.9\\microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\system.buffers\\4.6.1\\system.buffers.4.6.1.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.9\\system.diagnostics.diagnosticsource.10.0.9.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
-    "C:\\Users\\rodrigo.paez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
+    "C:\\Users\\640 G5\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\640 G5\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.9\\microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\640 G5\\.nuget\\packages\\system.buffers\\4.6.1\\system.buffers.4.6.1.nupkg.sha512",
+    "C:\\Users\\640 G5\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.9\\system.diagnostics.diagnosticsource.10.0.9.nupkg.sha512",
+    "C:\\Users\\640 G5\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\640 G5\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
   ],
   "logs": []
 }

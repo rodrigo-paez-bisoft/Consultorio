@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj": {}
+    "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj": {
+    "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj",
         "projectName": "BiSoft.Consultorio.Dominio",
-        "projectPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj",
-        "packagesPath": "C:\\Users\\rodrigo.paez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj",
+        "packagesPath": "C:\\Users\\640 G5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodrigo.paez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\640 G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

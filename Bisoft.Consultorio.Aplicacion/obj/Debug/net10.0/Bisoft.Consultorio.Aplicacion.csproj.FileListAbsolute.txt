@@ -14,3 +14,19 @@ C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\refint\Bisoft.Consultorio.Aplicacion.dll
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.pdb
 C:\Users\rodrigo.paez\Desktop\Proyectos\C#\BiSoft.Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\ref\Bisoft.Consultorio.Aplicacion.dll
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\bin\Debug\net10.0\Bisoft.Consultorio.Aplicacion.deps.json
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\bin\Debug\net10.0\Bisoft.Consultorio.Aplicacion.dll
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\bin\Debug\net10.0\Bisoft.Consultorio.Aplicacion.pdb
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\bin\Debug\net10.0\BiSoft.Consultorio.Dominio.dll
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\bin\Debug\net10.0\BiSoft.Consultorio.Dominio.pdb
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.csproj.AssemblyReference.cache
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.AssemblyInfo.cs
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.sourcelink.json
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.C.F416AAE4.Up2Date
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.dll
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\refint\Bisoft.Consultorio.Aplicacion.dll
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\Bisoft.Consultorio.Aplicacion.pdb
+C:\Users\640 G5\Desktop\Desarrollo de software\C#\Consultorio\Bisoft.Consultorio.Aplicacion\obj\Debug\net10.0\ref\Bisoft.Consultorio.Aplicacion.dll

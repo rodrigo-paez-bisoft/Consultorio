@@ -1,0 +1,34 @@
+﻿using Bisoft.Consultorio.Api.DTOs.Paciente;
+using Bisoft.Consultorio.Aplicacion.DTOs.Paciente;
+using Bisoft.Consultorio.Aplicacion.Services;
+using Microsoft.AspNetCore.Mvc;
+using Serilog;
+
+namespace Bisoft.Consultorio.Api.Endpoints.Pacientes
+{
+    public static class RegistrarPaciente
+    {
+        private const string ENDPONT_NAME = "RegistrarPaciente";
+        public static RouteGroupBuilder MapRegistrarPacienteEndponint(this RouteGroupBuilder group)
+        {
+            group.MapPost("/api/pacientes",
+                    async (
+                        [FromBody] RegistrarPacienteRequest request,
+                        PacienteService pacienteService,
+                        CancellationToken ct
+                    ) =>
+                    {
+                        
+                        var paciente = await pacienteService.RegistrarPaciente(request.Nombre);
+                        return Results.Ok(paciente);
+                        
+                    }
+                )
+                .Produces<RegistrarPacienteResponse>(StatusCodes.Status201Created)
+                .WithDescription("Registra un nuevo paciente en el sistema.")
+                .WithSummary(ENDPONT_NAME)
+                .WithName(ENDPONT_NAME);
+            return group;
+        }
+    }
+}

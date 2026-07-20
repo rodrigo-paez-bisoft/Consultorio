@@ -343,10 +343,407 @@
           }
         }
       }
+    },
+    "/api/salas/{salaId}": {
+      "get": {
+        "tags": [
+          "Salas"
+        ],
+        "summary": "ConsultarSala",
+        "operationId": "ConsultarSala",
+        "parameters": [
+          {
+            "name": "salaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaSalaResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Salas"
+        ],
+        "summary": "ActualizarSala",
+        "description": "Actualiza una nueva sala en el sistema",
+        "operationId": "ActualizarSala",
+        "parameters": [
+          {
+            "name": "salaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarSalaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistraSalaRequest"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Salas"
+        ],
+        "summary": "EliminarSala",
+        "description": "Elimina una sala existente por su ID.",
+        "operationId": "EliminarSala",
+        "parameters": [
+          {
+            "name": "salaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/salas/api/Salas": {
+      "post": {
+        "tags": [
+          "Salas"
+        ],
+        "summary": "RegistrarSala",
+        "description": "Registra una nueva sala en el sistema.",
+        "operationId": "RegistrarSala",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistraSalaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistraSalaResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/citas/{citaId}": {
+      "get": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "Consultar Cita",
+        "description": "Consulta una cita por su ID.",
+        "operationId": "Consultar Cita",
+        "parameters": [
+          {
+            "name": "citaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultarCitaResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "ActualizarCita",
+        "description": "Actualiza una cita existente en el sistema.",
+        "operationId": "ActualizarCita",
+        "parameters": [
+          {
+            "name": "citaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarCitaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActualizarCitaResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "EliminarCita",
+        "description": "Elimina una cita existente en el sistema.",
+        "operationId": "EliminarCita",
+        "parameters": [
+          {
+            "name": "citaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/citas/api/citas": {
+      "post": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "RegistrarCita",
+        "description": "Registra una nueva cita en el sistema.",
+        "operationId": "RegistrarCita",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarCitaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrarCitaResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "ActualizarCitaRequest": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "salaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sala": {
+            "type": "string"
+          }
+        }
+      },
+      "ActualizarCitaResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "pacienteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "doctorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "salaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sala": {
+            "type": "string"
+          }
+        }
+      },
       "ActualizarDoctorRequest": {
         "type": "object",
         "properties": {
@@ -363,6 +760,69 @@
         "properties": {
           "nombre": {
             "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "ActualizarSalaRequest": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "ConsultarCitaResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "pacienteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "doctorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "salaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sala": {
+            "type": "string"
           }
         }
       },
@@ -378,6 +838,14 @@
           },
           "especialidad": {
             "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       },
@@ -390,6 +858,108 @@
           "id": {
             "type": "string",
             "format": "uuid"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "ConsultaSalaResponse": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "RegistrarCitaRequest": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "pacienteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "doctorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "salaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sala": {
+            "type": "string"
+          }
+        }
+      },
+      "RegistrarCitaResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "pacienteId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "doctorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "salaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sala": {
+            "type": "string"
           }
         }
       },
@@ -416,6 +986,14 @@
           },
           "especialidad": {
             "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       },
@@ -424,6 +1002,14 @@
         "properties": {
           "nombre": {
             "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       },
@@ -436,6 +1022,50 @@
           "id": {
             "type": "string",
             "format": "uuid"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "RegistraSalaRequest": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "RegistraSalaResponse": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "status": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       }
@@ -447,6 +1077,12 @@
     },
     {
       "name": "Pacientes"
+    },
+    {
+      "name": "Salas"
+    },
+    {
+      "name": "Citas"
     }
   ]
 }

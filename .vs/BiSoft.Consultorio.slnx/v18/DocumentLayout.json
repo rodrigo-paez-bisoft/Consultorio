@@ -1,14 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\",
+  "WorkspaceRootPath": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\dtos\\cita\\actualizarcitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\cita\\actualizarcitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\bisoft.consultorio.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\bisoft.consultorio.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.infraestructura\\repositories\\consultorio\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\repositories\\consultorio\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\repositories\\icitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\repositories\\icitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\dtos\\cita\\registrarcitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\cita\\registrarcitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\citas\\registrarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\citas\\registrarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\citas\\eliminarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\citas\\eliminarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\citas\\consultarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\citas\\consultarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\citas\\citasendpointgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\citas\\citasendpointgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\citas\\actualizarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\citas\\actualizarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.infraestructura\\context\\consultoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\context\\consultoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.infraestructura\\mapping\\consultorio\\sqlite\\citasqliteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\mapping\\consultorio\\sqlite\\citasqliteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.aplicacion\\dtos\\cita\\registrarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\dtos\\cita\\registrarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.aplicacion\\dtos\\cita\\actualizarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\dtos\\cita\\actualizarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.aplicacion\\dtos\\cita\\consultarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\dtos\\cita\\consultarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.aplicacion\\dtos\\cita\\eliminarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\dtos\\cita\\eliminarcitaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.infraestructura\\repositories\\consultorio\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\repositories\\consultorio\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\service\\doctordomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\service\\doctordomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\service\\citadomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\service\\citadomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\repositories\\ipacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\repositories\\ipacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\repositories\\isalarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\repositories\\isalarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.infraestructura\\repositories\\consultorio\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\repositories\\consultorio\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.infraestructura\\repositories\\consultorio\\salarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\repositories\\consultorio\\salarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\service\\pacientedomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\service\\pacientedomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.dominio\\service\\saladomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\service\\saladomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\dtos\\paciente\\actualizarpacienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\paciente\\actualizarpacienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\dtos\\sala\\actualizarsalarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\sala\\actualizarsalarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\dtos\\paciente\\registrarpacienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\paciente\\registrarpacienterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\dtos\\sala\\registrasalarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\sala\\registrasalarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.aplicacion\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.aplicacion\\services\\salaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\salaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\pacientes\\registrarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\pacientes\\registrarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\pacientes\\actualizarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\pacientes\\actualizarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\salas\\registrarsala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\salas\\registrarsala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\640 g5\\desktop\\desarrollo de software\\c#\\consultorio\\bisoft.consultorio.api\\endpoints\\salas\\actualizarsala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\salas\\actualizarsala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +158,487 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bisoft.Consultorio.Api",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
-              "RelativeToolTip": "Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-17T23:50:55.739Z",
+              "DocumentIndex": 28,
+              "Title": "ActualizarSalaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Sala\\ActualizarSalaRequest.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Sala\\ActualizarSalaRequest.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Sala\\ActualizarSalaRequest.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Sala\\ActualizarSalaRequest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAEBUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:26:48.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ActualizarPacienteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Paciente\\ActualizarPacienteRequest.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Paciente\\ActualizarPacienteRequest.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Paciente\\ActualizarPacienteRequest.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Paciente\\ActualizarPacienteRequest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAEBUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:26:45.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Title": "ActualizarCitaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Cita\\ActualizarCitaRequest.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Cita\\ActualizarCitaRequest.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Cita\\ActualizarCitaRequest.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Cita\\ActualizarCitaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T23:50:38.074Z",
+              "WhenOpened": "2026-07-20T07:06:02.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ActualizarSala.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Salas\\ActualizarSala.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Salas\\ActualizarSala.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Salas\\ActualizarSala.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Salas\\ActualizarSala.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:28:11.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegistrarSala.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Salas\\RegistrarSala.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Salas\\RegistrarSala.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Salas\\RegistrarSala.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Salas\\RegistrarSala.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:28:07.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ActualizarPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\ActualizarPaciente.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:28:00.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegistrarPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\RegistrarPaciente.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\RegistrarPaciente.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\RegistrarPaciente.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Pacientes\\RegistrarPaciente.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:27:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SalaService.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\SalaService.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\SalaService.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\SalaService.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\SalaService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:27:45.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\PacienteService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:27:40.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegistraSalaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Sala\\RegistraSalaRequest.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Sala\\RegistraSalaRequest.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Sala\\RegistraSalaRequest.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Sala\\RegistraSalaRequest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAEBUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:26:59.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegistrarPacienteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Paciente\\RegistrarPacienteRequest.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Paciente\\RegistrarPacienteRequest.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Paciente\\RegistrarPacienteRequest.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Paciente\\RegistrarPacienteRequest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAEBUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:26:56.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Repositories\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\IDoctorRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Repositories\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAABYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:17:37.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\DoctorRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:17:41.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SalaDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\SalaDomainService.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\SalaDomainService.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\SalaDomainService.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\SalaDomainService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAMBUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:18:44.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PacienteDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\PacienteDomainService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAMBUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:18:35.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SalaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\SalaRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\SalaRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\SalaRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\SalaRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:18:25.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PacienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\PacienteRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:18:15.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISalaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\ISalaRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Repositories\\ISalaRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\ISalaRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Repositories\\ISalaRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAABYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:18:08.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPacienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\IPacienteRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Repositories\\IPacienteRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\IPacienteRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Repositories\\IPacienteRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAABYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:18:04.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CitaDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\CitaDomainService.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\CitaDomainService.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\CitaDomainService.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\CitaDomainService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:17:53.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DoctorDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Service\\DoctorDomainService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:17:48.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\ICitaRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Repositories\\ICitaRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Dominio\\Repositories\\ICitaRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Repositories\\ICitaRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:15:23.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\CitaRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\CitaRepository.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\CitaRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\CitaRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:00:52.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrarCitaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Cita\\RegistrarCitaRequest.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Cita\\RegistrarCitaRequest.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Cita\\RegistrarCitaRequest.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Cita\\RegistrarCitaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:06:02.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:53.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApplicationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Extensions\\WebApplicationExtensions.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Extensions\\WebApplicationExtensions.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Extensions\\WebApplicationExtensions.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Extensions\\WebApplicationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:43.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CitasEndpointGroup.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\CitasEndpointGroup.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\CitasEndpointGroup.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\CitasEndpointGroup.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\CitasEndpointGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:31.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrarCita.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\RegistrarCita.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\RegistrarCita.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\RegistrarCita.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\RegistrarCita.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:32.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EliminarCita.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\EliminarCita.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\EliminarCita.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\EliminarCita.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\EliminarCita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:32.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsultarCita.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\ConsultarCita.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\ConsultarCita.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\ConsultarCita.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\ConsultarCita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:31.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ActualizarCita.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\ActualizarCita.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\ActualizarCita.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Citas\\ActualizarCita.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Citas\\ActualizarCita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:07:32.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConsultorioContext.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T07:03:14.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CitaSqliteConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Mapping\\Consultorio\\Sqlite\\CitaSqliteConfiguration.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Mapping\\Consultorio\\Sqlite\\CitaSqliteConfiguration.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\BiSoft.Consultorio.Infraestructura\\Mapping\\Consultorio\\Sqlite\\CitaSqliteConfiguration.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Mapping\\Consultorio\\Sqlite\\CitaSqliteConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:47:16.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ActualizarCitaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ActualizarCitaResponse.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ActualizarCitaResponse.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ActualizarCitaResponse.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ActualizarCitaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:59:36.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultarCitaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ConsultarCitaResponse.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ConsultarCitaResponse.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ConsultarCitaResponse.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\ConsultarCitaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:59:37.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EliminarCitaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\EliminarCitaResponse.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\EliminarCitaResponse.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\EliminarCitaResponse.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\EliminarCitaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:59:37.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistrarCitaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\RegistrarCitaResponse.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\RegistrarCitaResponse.cs",
+              "ToolTip": "C:\\Users\\640 G5\\Desktop\\Desarrollo de software\\C#\\Consultorio\\Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\RegistrarCitaResponse.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\DTOs\\Cita\\RegistrarCitaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:59:36.914Z",
               "EditorCaption": ""
             }
           ]
