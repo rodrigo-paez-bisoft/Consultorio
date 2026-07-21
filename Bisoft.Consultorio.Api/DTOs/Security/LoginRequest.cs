@@ -1,4 +1,4 @@
-﻿namespace Bisoft.Consultorio.Api.Endpoints.Security
+﻿namespace Bisoft.Consultorio.Api.DTOs.Security
 {
     public class LoginRequest
     {

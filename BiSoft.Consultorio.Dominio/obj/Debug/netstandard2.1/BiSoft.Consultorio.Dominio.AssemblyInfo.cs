@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BiSoft.Consultorio.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe1ddd8aaa955484cf7d67bdba67a87071a9ba32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31b86b8dba23d791b3e1704f6756273aad63d66")]
 [assembly: System.Reflection.AssemblyProductAttribute("BiSoft.Consultorio.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BiSoft.Consultorio.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

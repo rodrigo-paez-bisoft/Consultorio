@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Bisoft.Consultorio.Api.Endpoints.Security.LoginRequest",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Security.LoginRequest",
         "IsRequired": true
       }
     ],

@@ -41,11 +41,13 @@ namespace Bisoft.Consultorio.Api
               
                 // Add services to the container.
                 builder.Services.AddAuthorization();
+                builder.Services.ConfigureAuthentication(configuration.JWT);
 
                 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
                 builder.Services.AddOpenApi();
 
                 var app = builder.Build();
+
 
                 using (var scope = app.Services.CreateScope())
                 {
@@ -62,8 +64,9 @@ namespace Bisoft.Consultorio.Api
 
                 app.UseCors(CORS_POLICY_NAME);
                 app.UseHttpsRedirection();
+
+                app.UseAuthentication();
                 app.UseAuthorization();
-                                    
                 //OpenApi
                 app.UseSwagger();
                 app.UseSwaggerUI();
@@ -72,6 +75,7 @@ namespace Bisoft.Consultorio.Api
                 app.AddHealthChecks(RATE_LIMITER_POLICY_NAME);
                 app.MapEndpoints();
                 app.UseRateLimiter();
+                
                 app.Run();
             }
             catch (Exception ex)

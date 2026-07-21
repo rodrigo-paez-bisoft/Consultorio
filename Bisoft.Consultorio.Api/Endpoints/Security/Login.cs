@@ -1,4 +1,5 @@
 ﻿using Bisoft.Consultorio.Api.DTOs.Configurations;
+using Bisoft.Consultorio.Api.DTOs.Security;
 using Bisoft.Consultorio.Aplicacion.DTOs.Doctor;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +27,7 @@ public static class Login
                 if (request.Usuario != USUARIO || request.Password != PASSWORD)
                     return Results.Unauthorized();
                 
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(PASSWORD) );
+                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfiguration.Secretkey) );
                 var credentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
                 var TokenOptions = new JwtSecurityToken(

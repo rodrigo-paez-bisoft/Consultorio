@@ -18,7 +18,7 @@ namespace Bisoft.Consultorio.Api.Endpoints.Doctores
                         CancellationToken ct
                     ) =>
                     {
-                        var doctor = await doctorService.RegistrarDoctor(request.Nombre, request.Especialidad);
+                        var doctor = await doctorService.ActualizarDoctor(doctorId, request.Nombre, request.Especialidad);
                         return Results.Ok(doctor);
                     }
                 )
