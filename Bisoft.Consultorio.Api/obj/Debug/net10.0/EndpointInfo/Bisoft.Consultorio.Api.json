@@ -179,6 +179,47 @@
         }
       }
     },
+    "/api/auth/Login": {
+      "post": {
+        "tags": [
+          "Seguridad"
+        ],
+        "summary": "Login",
+        "description": "Permite iniciar sesion",
+        "operationId": "Login",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultarDoctorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
     "/api/pacientes/{pacienteId}": {
       "get": {
         "tags": [
@@ -889,6 +930,17 @@
           }
         }
       },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "usuario": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      },
       "RegistrarCitaRequest": {
         "type": "object",
         "properties": {
@@ -1074,6 +1126,9 @@
   "tags": [
     {
       "name": "Doctores"
+    },
+    {
+      "name": "Seguridad"
     },
     {
       "name": "Pacientes"

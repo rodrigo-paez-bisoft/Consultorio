@@ -2,6 +2,7 @@
 using Bisoft.Consultorio.Api.Endpoints.Doctores;
 using Bisoft.Consultorio.Api.Endpoints.Pacientes;
 using Bisoft.Consultorio.Api.Endpoints.Salas;
+using Bisoft.Consultorio.Api.Endpoints.Security;
 using Microsoft.OpenApi;
 
 namespace Bisoft.Consultorio.Api.Extensions
@@ -11,8 +12,11 @@ namespace Bisoft.Consultorio.Api.Extensions
         public static WebApplication MapEndpoints(this WebApplication app)
         {
             var apiEndpoints = app.MapGroup("api")
-                                  .AddOpenApi();
+                                  .AddOpenApi()
+                                  .RequireRateLimiting(Program.RATE_LIMITER_POLICY_NAME)
+                                  .RequireAuthorization();
             apiEndpoints.MapDoctoresEndpoints();
+            apiEndpoints.MapSecurityEndpoints();
             apiEndpoints.MapPacientesEndpoints();
             apiEndpoints.MapSalasEndpoints();
             apiEndpoints.MapCitasEndpoints();

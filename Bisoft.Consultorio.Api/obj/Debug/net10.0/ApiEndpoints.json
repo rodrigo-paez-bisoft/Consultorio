@@ -1,5 +1,35 @@
 [
   {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Security.Login\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLogin\u003Eb__3_0",
+    "RelativePath": "api/auth/Login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.Endpoints.Security.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.ConsultarDoctorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Seguridad"
+    ],
+    "EndpointName": "Login",
+    "Description": "Permite iniciar sesion",
+    "Summary": "Login"
+  },
+  {
     "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.ConsultarCita\u002B\u003C\u003Ec",
     "Method": "\u003CMapConsultarCitasEndpoint\u003Eb__0_0",
     "RelativePath": "api/citas/{citaId}",

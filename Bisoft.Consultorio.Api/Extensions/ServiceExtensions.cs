@@ -1,13 +1,18 @@
-﻿using Bisoft.Consultorio.Api.Helpers.HealthChecks;
+﻿using Bisoft.Consultorio.Api.DTOs.Configurations;
+using Bisoft.Consultorio.Api.Helpers.HealthChecks;
 using Bisoft.Consultorio.Aplicacion.Services;
 using BiSoft.Consultorio.Dominio.Repositories;
 using BiSoft.Consultorio.Dominio.Service;
 using BiSoft.Consultorio.Infraestructura.Context;
 using BiSoft.Consultorio.Infraestructura.Repositories.Consultorio;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System.Globalization;
+using System.Text;
 using System.Threading.RateLimiting;
 
 namespace Bisoft.Consultorio.Api.Extensions
@@ -94,6 +99,38 @@ namespace Bisoft.Consultorio.Api.Extensions
 
             return services;
         
+        }
+        public static IServiceCollection configureLogger(this IServiceCollection services)
+        {
+            Log.Logger = new LoggerConfiguration()
+                  .WriteTo.SQLite(
+                      sqliteDbPath: "Logs/Logs.db",
+                      tableName: "Logs",
+                      restrictedToMinimumLevel: Serilog.Events.LogEventLevel.Information
+                  )
+                  .WriteTo.Console()
+                  .CreateLogger();
+            services.AddSerilog();
+            return services;
+        }
+        public static IServiceCollection ConfigureAuthentication(this IServiceCollection services,JwtConfiguration jwtConfiguration)
+        {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer =true,
+                        ValidateAudience =true,
+                        ValidateLifetime=true,
+                        ValidateIssuerSigningKey =true,
+                        ValidIssuer= jwtConfiguration.Issuer,
+                        ValidAudience = jwtConfiguration.Audience,
+                        IssuerSigningKey= new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfiguration.Secretkey)),
+                        ClockSkew = TimeSpan.Zero
+                    };
+                });
+            return services;
         }
     }
 }

@@ -1,3 +1,4 @@
+using Bisoft.Consultorio.Api.DTOs.Configurations;
 using Bisoft.Consultorio.Api.DTOs.Doctor;
 using Bisoft.Consultorio.Api.Extensions;
 using Bisoft.Consultorio.Api.Extensions.Endponints;
@@ -25,25 +26,19 @@ namespace Bisoft.Consultorio.Api
             {
                 var builder = WebApplication.CreateBuilder(args);
 
-                var connectionString = builder.Configuration["DatabaseConnections:Consultorio:ConnectionString"];
-                if (string.IsNullOrWhiteSpace(connectionString))
-                {
-                    throw new InvalidOperationException("SQLite connection string is not configured. Check appsettings.json for DatabaseConnections:Consultorio:ConnectionString.");
-                }
+                var configuration = builder.Configuration.GetGeneralConfigurations();
+
+                builder.Services.AddSingleton(configuration.JWT);
                 //Inyeccion de servicios
                 builder.Services.InyectarServicios()
                                 .ConfigurarSwagger()
                                 .ConfigurarCors()
-                                .InyectarContextos(connectionString) 
-                                .ConfigurarHealthChecks(connectionString)
-                                .ConfigureRateLimiter(2);
+                                .InyectarContextos(configuration.ConnectionString) 
+                                .ConfigurarHealthChecks(configuration.ConnectionString)
+                                .ConfigureRateLimiter(configuration.RateLimit)
+                                .configureLogger();
                 //
-                Log.Logger = new LoggerConfiguration()
-                    .WriteTo.SQLite(
-                        sqliteDbPath: "Logs/Logs.db",
-                        tableName: "Logs",
-                        restrictedToMinimumLevel: Serilog.Events.LogEventLevel.Information
-                    ).CreateLogger();
+              
                 // Add services to the container.
                 builder.Services.AddAuthorization();
 
@@ -65,6 +60,7 @@ namespace Bisoft.Consultorio.Api
                 }
                 
 
+                app.UseCors(CORS_POLICY_NAME);
                 app.UseHttpsRedirection();
                 app.UseAuthorization();
                                     
@@ -72,7 +68,6 @@ namespace Bisoft.Consultorio.Api
                 app.UseSwagger();
                 app.UseSwaggerUI();
                 //Cors
-                app.UseCors(CORS_POLICY_NAME);
                 app.UseMiddleware<ErrorHandlerMiddleware>();
                 app.AddHealthChecks(RATE_LIMITER_POLICY_NAME);
                 app.MapEndpoints();
@@ -88,7 +83,6 @@ namespace Bisoft.Consultorio.Api
             finally
             {
                 Log.CloseAndFlush();
-
             }
         }
     }
