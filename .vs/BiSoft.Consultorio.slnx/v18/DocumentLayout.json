@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\endpoints\\doctores\\registrardoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\endpoints\\doctores\\registrardoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.infraestructura\\repositories\\consultorio\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\repositories\\consultorio\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.dominio\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0BFB1B7-8D64-68BD-191E-9927C65E9C0E}|BiSoft.Consultorio.Dominio\\BiSoft.Consultorio.Dominio.csproj|solutionrelative:bisoft.consultorio.dominio\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.infraestructura\\repositories\\consultorio\\loginauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\repositories\\consultorio\\loginauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.aplicacion\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F740FB5-B8D7-4B36-8DAF-4677CC36E3F2}|Bisoft.Consultorio.Aplicacion\\Bisoft.Consultorio.Aplicacion.csproj|solutionrelative:bisoft.consultorio.aplicacion\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.infraestructura\\context\\consultoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\context\\consultoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.infraestructura\\context\\seguridadcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A51A92E-FB7A-49F7-8F6A-DB85611C71FC}|BiSoft.Consultorio.Infraestructura\\BiSoft.Consultorio.Infraestructura.csproj|solutionrelative:bisoft.consultorio.infraestructura\\context\\seguridadcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\dtos\\configurations\\generalconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\dtos\\configurations\\generalconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|c:\\users\\rodrigo.paez\\desktop\\proyectos\\c#\\bisoft.consultorio\\bisoft.consultorio.api\\extensions\\configurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D394FE-19F5-48E2-80A9-355C24104C13}|Bisoft.Consultorio.Api\\Bisoft.Consultorio.Api.csproj|solutionrelative:bisoft.consultorio.api\\extensions\\configurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\appsettings.json",
-              "RelativeToolTip": "Bisoft.Consultorio.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-22T22:51:02.387Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistrarDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Doctores\\RegistrarDoctor.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Endpoints\\Doctores\\RegistrarDoctor.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Endpoints\\Doctores\\RegistrarDoctor.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Api\\Endpoints\\Doctores\\RegistrarDoctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Program.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T22:32:11.646Z",
+              "WhenOpened": "2026-07-22T23:01:50.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PasswordHelper.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Helpers\\PasswordHelper.cs",
-              "RelativeDocumentMoniker": "BiSoft.Consultorio.Dominio\\Helpers\\PasswordHelper.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Dominio\\Helpers\\PasswordHelper.cs",
-              "RelativeToolTip": "BiSoft.Consultorio.Dominio\\Helpers\\PasswordHelper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAJAAAAAAAAAA==",
+              "Title": "LoginAuditRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\LoginAuditRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\LoginAuditRepository.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\LoginAuditRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\LoginAuditRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T21:50:07.404Z",
+              "WhenOpened": "2026-07-22T23:01:04.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Bisoft.Consultorio.Aplicacion\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Aplicacion\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "Bisoft.Consultorio.Aplicacion\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwEYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\UsuarioRepository.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Repositories\\Consultorio\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-22T21:49:27.307Z",
+              "WhenOpened": "2026-07-22T23:00:29.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T22:58:31.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConsultorioContext.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Context\\ConsultorioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T22:57:54.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeguridadContext.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Context\\SeguridadContext.cs",
+              "RelativeDocumentMoniker": "BiSoft.Consultorio.Infraestructura\\Context\\SeguridadContext.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\BiSoft.Consultorio.Infraestructura\\Context\\SeguridadContext.cs",
+              "RelativeToolTip": "BiSoft.Consultorio.Infraestructura\\Context\\SeguridadContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T22:57:42.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeneralConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Configurations\\GeneralConfigurations.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\DTOs\\Configurations\\GeneralConfigurations.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\DTOs\\Configurations\\GeneralConfigurations.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\DTOs\\Configurations\\GeneralConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T22:56:57.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfigurationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "Bisoft.Consultorio.Api\\Extensions\\ConfigurationExtensions.cs",
+              "ToolTip": "C:\\Users\\rodrigo.paez\\Desktop\\Proyectos\\C#\\BiSoft.Consultorio\\Bisoft.Consultorio.Api\\Extensions\\ConfigurationExtensions.cs",
+              "RelativeToolTip": "Bisoft.Consultorio.Api\\Extensions\\ConfigurationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T22:56:28.315Z",
               "EditorCaption": ""
             }
           ]

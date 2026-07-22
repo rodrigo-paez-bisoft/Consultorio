@@ -35,8 +35,10 @@ namespace Bisoft.Consultorio.Api
                 builder.Services.InyectarServicios()
                                 .ConfigurarSwagger()
                                 .ConfigurarCors()
-                                .InyectarContextos(configuration.ConnectionString)
-                                .ConfigurarHealthChecks(configuration.ConnectionString)
+                                .InyectarContextos(
+                                    configuration.ConnectionStringConsultorio,
+                                    configuration.ConnectionStringSeguridad)
+                                .ConfigurarHealthChecks(configuration.ConnectionStringConsultorio)
                                 .ConfigureRateLimiter(configuration.RateLimit)
                                 .configureLogger();
 

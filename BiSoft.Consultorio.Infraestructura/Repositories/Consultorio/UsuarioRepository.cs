@@ -7,9 +7,9 @@ namespace BiSoft.Consultorio.Infraestructura.Repositories.Consultorio
 {
     public class UsuarioRepository : IUsuarioRepository
     {
-        private readonly ConsultorioContext _context;
+        private readonly SeguridadContext _context;  // ← Cambiado a SeguridadContext
 
-        public UsuarioRepository(ConsultorioContext context)
+        public UsuarioRepository(SeguridadContext context)  // ← Cambiado a SeguridadContext
         {
             _context = context;
         }

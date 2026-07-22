@@ -15,8 +15,6 @@ namespace BiSoft.Consultorio.Infraestructura.Context
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Sala> Salas { get; set; }
         public DbSet<Cita> Citas { get; set; }
-        public DbSet<Usuario> Usuarios { get; set; }  // ← NUEVO
-        public DbSet<LoginAudit> LoginAudits { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,8 +22,6 @@ namespace BiSoft.Consultorio.Infraestructura.Context
             modelBuilder.ApplyConfiguration(new PacienteSqliteConfiguration());
             modelBuilder.ApplyConfiguration(new SalaSqliteConfiguration());
             modelBuilder.ApplyConfiguration(new CitaSqliteConfiguration());
-            modelBuilder.ApplyConfiguration(new UsuarioSqliteConfiguration());  // ← NUEVO
-            modelBuilder.ApplyConfiguration(new LoginAuditSqliteConfiguration());
         }
     }
 }

@@ -163,5 +163,23 @@ namespace Bisoft.Consultorio.Api.Extensions
             });
             return services;
         }
+        public static IServiceCollection InyectarContextos(
+                    this IServiceCollection services,
+                    string connectionStringConsultorio,
+                    string connectionStringSeguridad)
+        {
+            // Contexto para Consultorio
+            services.AddDbContext<ConsultorioContext>(options =>
+                options.UseSqlite(connectionStringConsultorio)
+            );
+
+            // Contexto para Seguridad
+            services.AddDbContext<SeguridadContext>(options =>
+                options.UseSqlite(connectionStringSeguridad)
+            );
+
+            return services;
+        }
+
     }
 }

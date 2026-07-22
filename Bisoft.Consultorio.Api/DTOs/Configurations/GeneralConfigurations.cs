@@ -1,8 +1,10 @@
-﻿namespace Bisoft.Consultorio.Api.DTOs.Configurations;
-
-public record GeneralConfigurations
+﻿namespace Bisoft.Consultorio.Api.DTOs.Configurations
+{
+    public record GeneralConfigurations
     (
-       string ConnectionString,
+        string ConnectionStringConsultorio,
+        string ConnectionStringSeguridad,
         int RateLimit,
         JwtConfiguration JWT
     );
+}
