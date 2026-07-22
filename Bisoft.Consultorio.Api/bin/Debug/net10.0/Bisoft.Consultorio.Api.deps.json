@@ -596,7 +596,8 @@
       "Bisoft.Consultorio.Aplicacion/1.0.0": {
         "dependencies": {
           "BiSoft.Consultorio.Dominio": "1.0.0",
-          "Mapster": "10.0.10"
+          "Mapster": "10.0.10",
+          "Microsoft.EntityFrameworkCore": "10.0.10"
         },
         "runtime": {
           "Bisoft.Consultorio.Aplicacion.dll": {

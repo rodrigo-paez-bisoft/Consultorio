@@ -11,7 +11,7 @@ namespace Bisoft.Consultorio.Api.Endpoints.Doctores
         private const string ENDPONT_NAME = "RegistrarDoctor";
         public static RouteGroupBuilder MapRegistrarDoctorEndponint(this RouteGroupBuilder group)
         {
-            group.MapPost("/api/doctores",
+            group.MapPost("",
                     async (
                         [FromBody] RegistrarDoctorRequest request,
                         DoctorService doctorService,

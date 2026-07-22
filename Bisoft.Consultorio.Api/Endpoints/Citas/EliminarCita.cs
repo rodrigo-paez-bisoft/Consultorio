@@ -5,7 +5,8 @@ namespace Bisoft.Consultorio.Api.Endpoints.Citas
 {
     public static class EliminarCita
     {
-        private const string ENDPONT_NAME = "EliminarCita";
+        private const string ENDPOINT_NAME = "EliminarCita";
+
         public static RouteGroupBuilder MapEliminarCitaEndpoint(this RouteGroupBuilder group)
         {
             group.MapDelete("{citaId}",
@@ -15,14 +16,22 @@ namespace Bisoft.Consultorio.Api.Endpoints.Citas
                         CancellationToken ct
                     ) =>
                     {
-                        await citaService.EliminarCita(citaId);
-                        return Results.Ok(new { message = "Cita eliminada correctamente." });
+                        var cita = await citaService.EliminarCita(citaId);
+                        return Results.Ok(new
+                        {
+                            message = "Cita eliminada correctamente.",
+                            citaId = cita.Id,
+                            fecha = cita.FechaHora,
+                            motivo = cita.Motivo
+                        });
                     }
                 )
-                    .Produces(StatusCodes.Status200OK)
-                    .WithDescription("Elimina una cita existente en el sistema.")
-                    .WithSummary(ENDPONT_NAME)
-                    .WithName(ENDPONT_NAME);
+                .Produces(StatusCodes.Status200OK)
+                .Produces(StatusCodes.Status404NotFound)
+                .WithDescription("Elimina una cita existente en el sistema.")
+                .WithSummary(ENDPOINT_NAME)
+                .WithName(ENDPOINT_NAME);
+
             return group;
         }
     }

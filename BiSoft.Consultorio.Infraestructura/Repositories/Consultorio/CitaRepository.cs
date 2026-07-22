@@ -2,11 +2,6 @@ using BiSoft.Consultorio.Dominio.Entidades;
 using BiSoft.Consultorio.Dominio.Repositories;
 using BiSoft.Consultorio.Infraestructura.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BiSoft.Consultorio.Infraestructura.Repositories.Consultorio
 {
@@ -21,7 +16,10 @@ namespace BiSoft.Consultorio.Infraestructura.Repositories.Consultorio
 
         public IQueryable<Cita> ConsultarCitas()
         {
-            return _context.Citas;
+            return _context.Citas
+                .Include(c => c.Paciente)
+                .Include(c => c.Doctor)
+                .Include(c => c.Sala);
         }
 
         public Task GuardarCambios()
@@ -31,7 +29,11 @@ namespace BiSoft.Consultorio.Infraestructura.Repositories.Consultorio
 
         public async Task<Cita?> ObtenerCita(Guid citaId)
         {
-            return await _context.Citas.OrderBy(c => c.Id).FirstOrDefaultAsync(c => c.Id == citaId);
+            return await _context.Citas
+                .Include(c => c.Paciente)
+                .Include(c => c.Doctor)
+                .Include(c => c.Sala)
+                .FirstOrDefaultAsync(c => c.Id == citaId);
         }
 
         public async Task RegistrarCita(Cita cita)
@@ -39,14 +41,14 @@ namespace BiSoft.Consultorio.Infraestructura.Repositories.Consultorio
             await _context.Citas.AddAsync(cita);
         }
 
-        public async Task EliminarCita(Cita cita)
-        {
-            _context.Citas.Remove(cita);
-        }
-
         public async Task ActualizarCita(Cita cita)
         {
             _context.Citas.Update(cita);
+        }
+
+        public async Task EliminarCita(Cita cita)
+        {
+            _context.Citas.Remove(cita);
         }
     }
 }

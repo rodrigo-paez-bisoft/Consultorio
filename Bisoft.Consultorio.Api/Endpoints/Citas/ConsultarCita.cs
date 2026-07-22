@@ -20,9 +20,11 @@ namespace Bisoft.Consultorio.Api.Endpoints.Citas
                     }
                 )
                 .Produces<ConsultarCitaResponse>(StatusCodes.Status200OK)
+                .Produces(StatusCodes.Status404NotFound)
                 .WithDescription("Consulta una cita por su ID.")
                 .WithSummary("Consultar Cita")
                 .WithName("Consultar Cita");
+
             return group;
         }
     }

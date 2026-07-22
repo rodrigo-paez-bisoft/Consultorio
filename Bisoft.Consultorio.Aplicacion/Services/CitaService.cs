@@ -3,9 +3,6 @@ using BiSoft.Consultorio.Dominio.Entidades;
 using BiSoft.Consultorio.Dominio.Service;
 using Mapster;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Bisoft.Consultorio.Aplicacion.Services
 {
@@ -20,32 +17,117 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             _citaDomainService = citaDomainService;
         }
 
-        public async Task<RegistrarCitaResponse> RegistrarCita(DateTime fecha, string motivo, int status, Guid pacienteId, Guid doctorId, Guid salaId, string sala)
+        // ===== REGISTRAR =====
+        public async Task<RegistrarCitaResponse> RegistrarCita(
+            Guid pacienteId,
+            Guid doctorId,
+            DateTime fechaHora,
+            int duracionMinutos,
+            string motivo,
+            Guid? salaId = null,
+            string? notas = null)
         {
-            var cita = await _citaDomainService.RegistrarCita(fecha, motivo, status, pacienteId, doctorId, salaId, sala);
-            _logger.LogInformation("Cita registrada: Id={CitaId}, Fecha={CitaFecha}, Motivo={CitaMotivo}", cita.Id, cita.Fecha, cita.Motivo);
+            var cita = await _citaDomainService.RegistrarCita(
+                pacienteId,
+                doctorId,
+                fechaHora,
+                duracionMinutos,
+                motivo,
+                salaId,
+                notas);
+
+            _logger.LogInformation("Cita registrada: Id={CitaId}, Fecha={CitaFecha}, Motivo={CitaMotivo}",
+                cita.Id, cita.FechaHora, cita.Motivo);
+
             return cita.Adapt<RegistrarCitaResponse>();
         }
 
-        public async Task<ActualizarCitaResponse> ActualizarCita(Guid citaId, DateTime fecha, string motivo, int status, Guid salaId, string sala)
-        {
-            var cita = await _citaDomainService.ActualizarCita(citaId, fecha, motivo, status, salaId, sala);
-            _logger.LogInformation($"Cita actualizada con id {citaId}");
-            return cita.Adapt<ActualizarCitaResponse>();
-        }
-
+        // ===== CONSULTAR =====
         public async Task<ConsultarCitaResponse> ConsultarCita(Guid citaId)
         {
             var cita = await _citaDomainService.ObtenerCita(citaId);
-            _logger.LogInformation($"Cita obtenida con id {citaId}");
+            _logger.LogInformation("Cita obtenida con id {CitaId}", citaId);
             return cita.Adapt<ConsultarCitaResponse>();
         }
 
+        // ===== ACTUALIZAR =====
+        public async Task<ActualizarCitaResponse> ActualizarCita(
+            Guid citaId,
+            DateTime? fechaHora = null,
+            int? duracionMinutos = null,
+            string? motivo = null,
+            string? notas = null,
+            Guid? salaId = null,
+            string? motivoCancelacion = null)
+        {
+            var cita = await _citaDomainService.ActualizarCita(
+                citaId,
+                fechaHora,
+                duracionMinutos,
+                motivo,
+                notas,
+                salaId,
+                motivoCancelacion);
+
+            _logger.LogInformation("Cita actualizada con id {CitaId}", citaId);
+            return cita.Adapt<ActualizarCitaResponse>();
+        }
+
+        // ===== CONFIRMAR =====
+        public async Task<ConfirmarCitaResponse> ConfirmarCita(Guid citaId)
+        {
+            var cita = await _citaDomainService.ConfirmarCita(citaId);
+            _logger.LogInformation("Cita confirmada con id {CitaId}", citaId);
+            return cita.Adapt<ConfirmarCitaResponse>();
+        }
+
+        // ===== CANCELAR =====
+        public async Task<CancelarCitaResponse> CancelarCita(Guid citaId, string? motivoCancelacion = null)
+        {
+            var cita = await _citaDomainService.CancelarCita(citaId, motivoCancelacion);
+            _logger.LogInformation("Cita cancelada con id {CitaId}, Motivo: {Motivo}", citaId, motivoCancelacion);
+            return cita.Adapt<CancelarCitaResponse>();
+        }
+
+        // ===== REAGENDAR =====
+        public async Task<ReagendarCitaResponse> ReagendarCita(
+            Guid citaId,
+            DateTime nuevaFechaHora,
+            int nuevaDuracionMinutos,
+            Guid? salaId = null)
+        {
+            var cita = await _citaDomainService.ReagendarCita(
+                citaId,
+                nuevaFechaHora,
+                nuevaDuracionMinutos,
+                salaId);
+
+            _logger.LogInformation("Cita reagendada con id {CitaId}, NuevaFecha: {NuevaFecha}", citaId, nuevaFechaHora);
+            return cita.Adapt<ReagendarCitaResponse>();
+        }
+
+        // ===== ELIMINAR =====
         public async Task<EliminarCitaResponse> EliminarCita(Guid citaId)
         {
             var cita = await _citaDomainService.EliminarCita(citaId);
-            _logger.LogInformation($"Cita eliminada con id {citaId}");
+            _logger.LogInformation("Cita eliminada con id {CitaId}", citaId);
             return cita.Adapt<EliminarCitaResponse>();
+        }
+
+        // ===== VERIFICAR DISPONIBILIDAD =====
+        public async Task<bool> VerificarDisponibilidad(
+            Guid doctorId,
+            Guid? salaId,
+            DateTime fechaHora,
+            int duracionMinutos,
+            Guid? citaIdExcluir = null)
+        {
+            return await _citaDomainService.VerificarDisponibilidad(
+                doctorId,
+                salaId,
+                fechaHora,
+                duracionMinutos,
+                citaIdExcluir);
         }
     }
 }

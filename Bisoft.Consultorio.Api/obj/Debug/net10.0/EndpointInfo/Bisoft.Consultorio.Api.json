@@ -138,7 +138,7 @@
         }
       }
     },
-    "/api/doctores/api/doctores": {
+    "/api/doctores": {
       "post": {
         "tags": [
           "Doctores"
@@ -203,10 +203,13 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ConsultarDoctorResponse"
+                  "$ref": "#/components/schemas/LoginResponse"
                 }
               }
             }
+          },
+          "401": {
+            "description": "Unauthorized"
           },
           "400": {
             "description": "Solicitud incorrecta"
@@ -580,11 +583,11 @@
               }
             }
           },
-          "400": {
-            "description": "Solicitud incorrecta"
-          },
           "404": {
             "description": "No encontrado"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
           },
           "500": {
             "description": "Error interno del servidor"
@@ -630,11 +633,14 @@
               }
             }
           },
-          "400": {
-            "description": "Solicitud incorrecta"
-          },
           "404": {
             "description": "No encontrado"
+          },
+          "409": {
+            "description": "Conflict"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
           },
           "500": {
             "description": "Error interno del servidor"
@@ -663,11 +669,11 @@
           "200": {
             "description": "OK"
           },
-          "400": {
-            "description": "Solicitud incorrecta"
-          },
           "404": {
             "description": "No encontrado"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
           },
           "500": {
             "description": "Error interno del servidor"
@@ -704,11 +710,142 @@
               }
             }
           },
+          "409": {
+            "description": "Conflict"
+          },
           "400": {
             "description": "Solicitud incorrecta"
           },
           "404": {
             "description": "No encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/citas/{citaId}/confirmar": {
+      "put": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "ConfirmarCita",
+        "description": "Confirma una cita existente.",
+        "operationId": "ConfirmarCita",
+        "parameters": [
+          {
+            "name": "citaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/citas/{citaId}/cancelar": {
+      "put": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "CancelarCita",
+        "description": "Cancela una cita existente.",
+        "operationId": "CancelarCita",
+        "parameters": [
+          {
+            "name": "citaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CancelarCitaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/citas/{citaId}/reagendar": {
+      "put": {
+        "tags": [
+          "Citas"
+        ],
+        "summary": "ReagendarCita",
+        "description": "Reagenda una cita existente.",
+        "operationId": "ReagendarCita",
+        "parameters": [
+          {
+            "name": "citaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReagendarCitaRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "No encontrado"
+          },
+          "409": {
+            "description": "Conflict"
+          },
+          "400": {
+            "description": "Solicitud incorrecta"
           },
           "500": {
             "description": "Error interno del servidor"
@@ -722,27 +859,46 @@
       "ActualizarCitaRequest": {
         "type": "object",
         "properties": {
-          "fecha": {
-            "type": "string",
+          "fechaHora": {
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "date-time"
           },
-          "motivo": {
-            "type": "string"
-          },
-          "status": {
+          "duracionMinutos": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
             "type": [
+              "null",
               "integer",
               "string"
             ],
             "format": "int32"
           },
+          "motivo": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "notas": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
           "salaId": {
-            "type": "string",
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "uuid"
           },
-          "sala": {
-            "type": "string"
+          "motivoCancelacion": {
+            "type": [
+              "null",
+              "string"
+            ]
           }
         }
       },
@@ -753,12 +909,26 @@
             "type": "string",
             "format": "uuid"
           },
-          "fecha": {
+          "fechaHora": {
             "type": "string",
             "format": "date-time"
           },
+          "duracionMinutos": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
           "motivo": {
             "type": "string"
+          },
+          "notas": {
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "status": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -777,11 +947,11 @@
             "format": "uuid"
           },
           "salaId": {
-            "type": "string",
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "uuid"
-          },
-          "sala": {
-            "type": "string"
           }
         }
       },
@@ -828,6 +998,17 @@
           }
         }
       },
+      "CancelarCitaRequest": {
+        "type": "object",
+        "properties": {
+          "motivoCancelacion": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
       "ConsultarCitaResponse": {
         "type": "object",
         "properties": {
@@ -835,12 +1016,26 @@
             "type": "string",
             "format": "uuid"
           },
-          "fecha": {
+          "fechaHora": {
             "type": "string",
             "format": "date-time"
           },
+          "duracionMinutos": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
           "motivo": {
             "type": "string"
+          },
+          "notas": {
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "status": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -859,11 +1054,11 @@
             "format": "uuid"
           },
           "salaId": {
-            "type": "string",
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "uuid"
-          },
-          "sala": {
-            "type": "string"
           }
         }
       },
@@ -941,23 +1136,61 @@
           }
         }
       },
-      "RegistrarCitaRequest": {
+      "LoginResponse": {
         "type": "object",
         "properties": {
-          "fecha": {
+          "token": {
+            "type": "string"
+          }
+        }
+      },
+      "ReagendarCitaRequest": {
+        "type": "object",
+        "properties": {
+          "nuevaFechaHora": {
             "type": "string",
             "format": "date-time"
           },
-          "motivo": {
-            "type": "string"
-          },
-          "status": {
+          "nuevaDuracionMinutos": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
             "type": [
               "integer",
               "string"
             ],
             "format": "int32"
+          },
+          "salaId": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "uuid"
+          }
+        }
+      },
+      "RegistrarCitaRequest": {
+        "type": "object",
+        "properties": {
+          "fechaHora": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "duracionMinutos": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "notas": {
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "pacienteId": {
             "type": "string",
@@ -968,11 +1201,11 @@
             "format": "uuid"
           },
           "salaId": {
-            "type": "string",
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "uuid"
-          },
-          "sala": {
-            "type": "string"
           }
         }
       },
@@ -983,12 +1216,26 @@
             "type": "string",
             "format": "uuid"
           },
-          "fecha": {
+          "fechaHora": {
             "type": "string",
             "format": "date-time"
           },
+          "duracionMinutos": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
           "motivo": {
             "type": "string"
+          },
+          "notas": {
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "status": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -1007,11 +1254,11 @@
             "format": "uuid"
           },
           "salaId": {
-            "type": "string",
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "uuid"
-          },
-          "sala": {
-            "type": "string"
           }
         }
       },

@@ -19,25 +19,41 @@ namespace Bisoft.Consultorio.Api.Extensions
 {
     public static class ServiceExtensions
     {
+        // ===== INYECCIÓN DE SERVICIOS =====
         public static IServiceCollection InyectarServicios(this IServiceCollection services)
         {
+            // Doctores
             services.AddScoped<DoctorService>();
             services.AddScoped<DoctorDomainService>();
             services.AddScoped<IDoctorRepository, DoctorRepository>();
 
+            // Pacientes
             services.AddScoped<PacienteService>();
             services.AddScoped<PacienteDomainService>();
             services.AddScoped<IPacienteRepository, PacienteRepository>();
 
+            // Salas
             services.AddScoped<SalaService>();
             services.AddScoped<SalaDomainService>();
             services.AddScoped<ISalaRepository, SalaRepository>();
 
+            // Citas
             services.AddScoped<CitaService>();
             services.AddScoped<CitaDomainService>();
             services.AddScoped<ICitaRepository, CitaRepository>();
+
+            // Usuarios
+            services.AddScoped<UsuarioService>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
+            // Login Audit
+            services.AddScoped<LoginAuditService>();
+            services.AddScoped<ILoginAuditRepository, LoginAuditRepository>();
+
             return services;
         }
+
+        // ===== CONTEXTOS =====
         public static IServiceCollection InyectarContextos(this IServiceCollection services, string connectionString)
         {
             services.AddDbContext<ConsultorioContext>(options =>
@@ -45,12 +61,16 @@ namespace Bisoft.Consultorio.Api.Extensions
             );
             return services;
         }
+
+        // ===== SWAGGER =====
         public static IServiceCollection ConfigurarSwagger(this IServiceCollection services)
         {
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             return services;
         }
+
+        // ===== CORS =====
         public static IServiceCollection ConfigurarCors(this IServiceCollection services)
         {
             services.AddCors(options =>
@@ -65,17 +85,21 @@ namespace Bisoft.Consultorio.Api.Extensions
             });
             return services;
         }
-        public static IServiceCollection ConfigurarHealthChecks(this IServiceCollection services,string connectionString)
+
+        // ===== HEALTH CHECKS =====
+        public static IServiceCollection ConfigurarHealthChecks(this IServiceCollection services, string connectionString)
         {
             services.AddHealthChecks()
-                .AddCheck("Liveness", ()=> HealthCheckResult.Healthy($"API jalando al cien"))
+                .AddCheck("Liveness", () => HealthCheckResult.Healthy($"API jalando al cien"))
                 .AddCheck("Database", new DatabaseHealthCheck(connectionString), tags: ["ready"]);
             return services;
         }
+
+        // ===== RATE LIMITER =====
         public static IServiceCollection ConfigureRateLimiter(this IServiceCollection services, int allowedRequestPerMinute)
         {
             services.AddRateLimiter(config =>
-            { 
+            {
                 config.OnRejected = (context, ct) =>
                 {
                     if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, out var retryAfter))
@@ -98,8 +122,9 @@ namespace Bisoft.Consultorio.Api.Extensions
             });
 
             return services;
-        
         }
+
+        // ===== LOGGER =====
         public static IServiceCollection configureLogger(this IServiceCollection services)
         {
             Log.Logger = new LoggerConfiguration()
@@ -113,23 +138,29 @@ namespace Bisoft.Consultorio.Api.Extensions
             services.AddSerilog();
             return services;
         }
-        public static IServiceCollection ConfigureAuthentication(this IServiceCollection services,JwtConfiguration jwtConfiguration)
+
+        // ===== AUTENTICACIÓN JWT =====
+        public static IServiceCollection ConfigureAuthentication(this IServiceCollection services, JwtConfiguration jwtConfiguration)
         {
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
                 {
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer =true,
-                        ValidateAudience =true,
-                        ValidateLifetime=true,
-                        ValidateIssuerSigningKey =true,
-                        ValidIssuer= jwtConfiguration.Issuer,
-                        ValidAudience = jwtConfiguration.Audience,
-                        IssuerSigningKey= new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfiguration.Secretkey)),
-                        ClockSkew = TimeSpan.Zero
-                    };
-                });
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = jwtConfiguration.Issuer,
+                    ValidAudience = jwtConfiguration.Audience,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfiguration.Secretkey)),
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
             return services;
         }
     }

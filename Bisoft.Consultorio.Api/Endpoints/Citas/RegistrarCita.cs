@@ -7,7 +7,8 @@ namespace Bisoft.Consultorio.Api.Endpoints.Citas
 {
     public static class RegistrarCita
     {
-        private const string ENDPONT_NAME = "RegistrarCita";
+        private const string ENDPOINT_NAME = "RegistrarCita";
+
         public static RouteGroupBuilder MapRegistrarCitaEndpoint(this RouteGroupBuilder group)
         {
             group.MapPost("/api/citas",
@@ -17,14 +18,24 @@ namespace Bisoft.Consultorio.Api.Endpoints.Citas
                         CancellationToken ct
                     ) =>
                     {
-                        var cita = await citaService.RegistrarCita(request.Fecha, request.Motivo, request.Status, request.PacienteId, request.DoctorId, request.SalaId, request.Sala);
-                        return Results.Ok(cita);
+                        var cita = await citaService.RegistrarCita(
+                            request.PacienteId,
+                            request.DoctorId,
+                            request.FechaHora,
+                            request.DuracionMinutos,
+                            request.Motivo,
+                            request.SalaId,
+                            request.Notas);
+
+                        return Results.Created($"/api/citas/{cita.Id}", cita);
                     }
                 )
                 .Produces<RegistrarCitaResponse>(StatusCodes.Status201Created)
+                .Produces(StatusCodes.Status409Conflict)
                 .WithDescription("Registra una nueva cita en el sistema.")
-                .WithSummary(ENDPONT_NAME)
-                .WithName(ENDPONT_NAME);
+                .WithSummary(ENDPOINT_NAME)
+                .WithName(ENDPOINT_NAME);
+
             return group;
         }
     }

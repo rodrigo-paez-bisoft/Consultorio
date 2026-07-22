@@ -596,6 +596,10 @@
             "Mapster": {
               "target": "Package",
               "version": "[10.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.10, )"
             }
           },
           "imports": [

@@ -1,28 +1,31 @@
 ﻿using BiSoft.Consultorio.Dominio.Entidades;
 using BiSoft.Consultorio.Infraestructura.Mapping.Consultorio.Sqlite;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection.Emit;
-using System.Text;
 
 namespace BiSoft.Consultorio.Infraestructura.Context
 {
     public class ConsultorioContext : DbContext
     {
+        public ConsultorioContext(DbContextOptions<ConsultorioContext> options)
+            : base(options)
+        {
+        }
+
         public DbSet<Doctor> Doctores { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Sala> Salas { get; set; }
         public DbSet<Cita> Citas { get; set; }
-        public ConsultorioContext(DbContextOptions<ConsultorioContext> options) : base(options) { }
+        public DbSet<Usuario> Usuarios { get; set; }  // ← NUEVO
+        public DbSet<LoginAudit> LoginAudits { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new DoctorSqliteConfiguration());
             modelBuilder.ApplyConfiguration(new PacienteSqliteConfiguration());
             modelBuilder.ApplyConfiguration(new SalaSqliteConfiguration());
             modelBuilder.ApplyConfiguration(new CitaSqliteConfiguration());
+            modelBuilder.ApplyConfiguration(new UsuarioSqliteConfiguration());  // ← NUEVO
+            modelBuilder.ApplyConfiguration(new LoginAuditSqliteConfiguration());
         }
     }
 }

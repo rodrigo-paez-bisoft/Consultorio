@@ -20,6 +20,7 @@ namespace Bisoft.Consultorio.Api
     {
         public const string RATE_LIMITER_POLICY_NAME = "FIXED";
         public const string CORS_POLICY_NAME = "AllowAll";
+
         public static void Main(string[] args)
         {
             try
@@ -29,53 +30,63 @@ namespace Bisoft.Consultorio.Api
                 var configuration = builder.Configuration.GetGeneralConfigurations();
 
                 builder.Services.AddSingleton(configuration.JWT);
-                //Inyeccion de servicios
+
+                // ===== INYECCIÓN DE SERVICIOS =====
                 builder.Services.InyectarServicios()
                                 .ConfigurarSwagger()
                                 .ConfigurarCors()
-                                .InyectarContextos(configuration.ConnectionString) 
+                                .InyectarContextos(configuration.ConnectionString)
                                 .ConfigurarHealthChecks(configuration.ConnectionString)
                                 .ConfigureRateLimiter(configuration.RateLimit)
                                 .configureLogger();
-                //
-              
-                // Add services to the container.
+
+                // ===== AUTENTICACIÓN Y AUTORIZACIÓN =====
                 builder.Services.AddAuthorization();
                 builder.Services.ConfigureAuthentication(configuration.JWT);
 
-                // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
                 builder.Services.AddOpenApi();
 
                 var app = builder.Build();
 
-
+                // ===== BASE DE DATOS =====
                 using (var scope = app.Services.CreateScope())
                 {
                     var context = scope.ServiceProvider.GetRequiredService<ConsultorioContext>();
                     context.Database.EnsureCreated();
                 }
 
-                // Configure the HTTP request pipeline.
+                // ===== PIPELINE DE MIDDLEWARES =====
+
+                // 1. Configuración de entorno
                 if (app.Environment.IsDevelopment())
                 {
                     app.MapOpenApi();
                 }
-                
 
-                app.UseCors(CORS_POLICY_NAME);
-                app.UseHttpsRedirection();
-
-                app.UseAuthentication();
-                app.UseAuthorization();
-                //OpenApi
+                // 2. 🔽 SWAGGER - DEBE IR ANTES DE CUALQUIER MIDDLEWARE DE AUTENTICACIÓN
                 app.UseSwagger();
                 app.UseSwaggerUI();
-                //Cors
+
+                // 3. CORS
+                app.UseCors(CORS_POLICY_NAME);
+
+                // 4. HTTPS
+                app.UseHttpsRedirection();
+
+                // 5. 🔽 AUTENTICACIÓN - ANTES DE UseAuthorization
+                app.UseAuthentication();
+                app.UseAuthorization();
+
+                // 6. MIDDLEWARES PERSONALIZADOS
                 app.UseMiddleware<ErrorHandlerMiddleware>();
+
+                // 7. HEALTH CHECKS Y ENDPOINTS
                 app.AddHealthChecks(RATE_LIMITER_POLICY_NAME);
                 app.MapEndpoints();
+
+                // 8. RATE LIMITER - DESPUÉS DE LOS ENDPOINTS
                 app.UseRateLimiter();
-                
+
                 app.Run();
             }
             catch (Exception ex)

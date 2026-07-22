@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Security.Login\u002B\u003C\u003Ec",
-    "Method": "\u003CMapLogin\u003Eb__3_0",
+    "Method": "\u003CMapLogin\u003Eb__1_0",
     "RelativePath": "api/auth/Login",
     "HttpMethod": "POST",
     "IsController": false,
@@ -15,11 +15,16 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.ConsultarDoctorResponse",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Security.LoginResponse",
         "MediaTypes": [
           "application/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
       }
     ],
     "Tags": [
@@ -50,6 +55,11 @@
           "application/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
       }
     ],
     "Tags": [
@@ -85,6 +95,16 @@
           "application/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 409
       }
     ],
     "Tags": [
@@ -113,6 +133,11 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
       }
     ],
     "Tags": [
@@ -121,6 +146,130 @@
     "EndpointName": "EliminarCita",
     "Description": "Elimina una cita existente en el sistema.",
     "Summary": "EliminarCita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.CancelarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCancelarCitaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/citas/{citaId}/cancelar",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Cita.CancelarCitaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "CancelarCita",
+    "Description": "Cancela una cita existente.",
+    "Summary": "CancelarCita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.ConfirmarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapConfirmarCitaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/citas/{citaId}/confirmar",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "ConfirmarCita",
+    "Description": "Confirma una cita existente.",
+    "Summary": "ConfirmarCita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.ReagendarCita\u002B\u003C\u003Ec",
+    "Method": "\u003CMapReagendarCitaEndpoint\u003Eb__1_0",
+    "RelativePath": "api/citas/{citaId}/reagendar",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Cita.ReagendarCitaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 409
+      }
+    ],
+    "Tags": [
+      "Citas"
+    ],
+    "EndpointName": "ReagendarCita",
+    "Description": "Reagenda una cita existente.",
+    "Summary": "ReagendarCita"
   },
   {
     "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Citas.RegistrarCita\u002B\u003C\u003Ec",
@@ -143,6 +292,11 @@
           "application/json"
         ],
         "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 409
       }
     ],
     "Tags": [
@@ -151,6 +305,36 @@
     "EndpointName": "RegistrarCita",
     "Description": "Registra una nueva cita en el sistema.",
     "Summary": "RegistrarCita"
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.RegistrarDoctor\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRegistrarDoctorEndponint\u003Eb__1_0",
+    "RelativePath": "api/doctores/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Doctor.RegistrarDoctorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.RegistrarDoctorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Doctores"
+    ],
+    "EndpointName": "RegistrarDoctor",
+    "Description": "Registra un nuevo doctor en el sistema.",
+    "Summary": "RegistrarDoctor"
   },
   {
     "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.ConsultarDoctor\u002B\u003C\u003Ec",
@@ -244,36 +428,6 @@
     "EndpointName": "EliminarDoctor",
     "Description": "Elimina un doctor existente en el sistema.",
     "Summary": "EliminarDoctor"
-  },
-  {
-    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Doctores.RegistrarDoctor\u002B\u003C\u003Ec",
-    "Method": "\u003CMapRegistrarDoctorEndponint\u003Eb__1_0",
-    "RelativePath": "api/doctores/api/doctores",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Bisoft.Consultorio.Api.DTOs.Doctor.RegistrarDoctorRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Bisoft.Consultorio.Aplicacion.DTOs.Doctor.RegistrarDoctorResponse",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
-      }
-    ],
-    "Tags": [
-      "Doctores"
-    ],
-    "EndpointName": "RegistrarDoctor",
-    "Description": "Registra un nuevo doctor en el sistema.",
-    "Summary": "RegistrarDoctor"
   },
   {
     "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Pacientes.ConsultarPaciente\u002B\u003C\u003Ec",
