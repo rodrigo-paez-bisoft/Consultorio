@@ -15,4 +15,8 @@
     <ProjectReference Include="..\BiSoft.Consultorio.Dominio\BiSoft.Consultorio.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mapping\Seguridad\Sqlite\" />
+  </ItemGroup>
+
 </Project>

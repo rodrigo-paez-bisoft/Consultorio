@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bisoft.Consultorio.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dafc2fca0a9073feee996e342c59e65771c8b005")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62b2220a741b398aed7e611645751765e5d781ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bisoft.Consultorio.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bisoft.Consultorio.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

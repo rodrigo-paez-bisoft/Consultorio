@@ -84,7 +84,7 @@ namespace Bisoft.Consultorio.Api
 
                 // 7. HEALTH CHECKS Y ENDPOINTS
                 app.AddHealthChecks(RATE_LIMITER_POLICY_NAME);
-                app.MapEndpoints();
+                app.MapAllEndpoints();
 
                 // 8. RATE LIMITER - DESPUÉS DE LOS ENDPOINTS
                 app.UseRateLimiter();

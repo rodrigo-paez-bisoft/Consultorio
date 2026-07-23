@@ -3,23 +3,24 @@ using Bisoft.Consultorio.Api.Endpoints.Doctores;
 using Bisoft.Consultorio.Api.Endpoints.Pacientes;
 using Bisoft.Consultorio.Api.Endpoints.Salas;
 using Bisoft.Consultorio.Api.Endpoints.Security;
+using Bisoft.Consultorio.Api.Endpoints.Usuarios;
 using Microsoft.OpenApi;
 
 namespace Bisoft.Consultorio.Api.Extensions
 {
     public static class WebApplicationExtensions
     {
-        public static WebApplication MapEndpoints(this WebApplication app)
+        public static WebApplication MapAllEndpoints(this WebApplication app)
         {
             var apiEndpoints = app.MapGroup("api")
-                                  .AddOpenApi()
-                                  .RequireRateLimiting(Program.RATE_LIMITER_POLICY_NAME)
-                                  .RequireAuthorization();
-            apiEndpoints.MapDoctoresEndpoints();
+                                  .RequireRateLimiting(Program.RATE_LIMITER_POLICY_NAME);
             apiEndpoints.MapSecurityEndpoints();
+            apiEndpoints.MapUsuariosEndpoints();
+            apiEndpoints.MapDoctoresEndpoints();
             apiEndpoints.MapPacientesEndpoints();
             apiEndpoints.MapSalasEndpoints();
             apiEndpoints.MapCitasEndpoints();
+
             return app;
         }
         private static RouteGroupBuilder AddOpenApi(this RouteGroupBuilder group)

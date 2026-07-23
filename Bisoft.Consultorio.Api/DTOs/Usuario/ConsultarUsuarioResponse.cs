@@ -1,4 +1,5 @@
-﻿using System;
+﻿// App/DTOs/Usuario/ConsultarUsuarioResponse.cs
+using System;
 
 namespace Bisoft.Consultorio.Api.DTOs.Usuario
 {

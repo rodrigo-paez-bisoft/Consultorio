@@ -1,7 +1,7 @@
 ﻿using BiSoft.Consultorio.Dominio.Entidades;
 using BiSoft.Consultorio.Dominio.Helpers;
 using BiSoft.Consultorio.Dominio.Repositories;
-using Microsoft.EntityFrameworkCore;  // ← IMPORTANTE
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace Bisoft.Consultorio.Aplicacion.Services
@@ -17,6 +17,7 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             _usuarioRepository = usuarioRepository;
         }
 
+        // Registrar usuario
         public async Task<Usuario> RegistrarUsuario(string nombre, string username, string password)
         {
             var existente = await _usuarioRepository.ObtenerUsuarioPorUsername(username);
@@ -33,43 +34,35 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             return usuario;
         }
 
+        // Autenticar usuario
         public async Task<Usuario?> Autenticar(string username, string password)
         {
-            Console.WriteLine($"=== AUTENTICACIÓN ===");
-            Console.WriteLine($"Usuario: {username}");
-            Console.WriteLine($"Password: {password}");
-
             var usuario = await _usuarioRepository.ObtenerUsuarioPorUsername(username);
 
             if (usuario == null)
             {
-                Console.WriteLine("❌ Usuario NO encontrado");
+                _logger.LogWarning("Intento de autenticación fallido: usuario {Username} no encontrado", username);
                 return null;
             }
-
-            Console.WriteLine($"✅ Usuario encontrado: {usuario.Username}");
-            Console.WriteLine($"Hash en BD: '{usuario.PasswordHash}'");
-
-            var hashCalculado = PasswordHelper.HashPassword(password);
-            Console.WriteLine($"Hash calculado: '{hashCalculado}'");
-            Console.WriteLine($"Coinciden: {usuario.PasswordHash == hashCalculado}");
 
             if (!usuario.Activo)
             {
-                Console.WriteLine("❌ Usuario INACTIVO");
+                _logger.LogWarning("Intento de autenticación: usuario {Username} inactivo", username);
                 return null;
             }
 
+            var hashCalculado = PasswordHelper.HashPassword(password);
             if (usuario.PasswordHash != hashCalculado)
             {
-                Console.WriteLine("❌ Contraseña INCORRECTA");
+                _logger.LogWarning("Intento de autenticación fallido: contraseña incorrecta para {Username}", username);
                 return null;
             }
 
-            Console.WriteLine("✅ Autenticación exitosa");
+            _logger.LogInformation("Usuario autenticado exitosamente: {Username}", username);
             return usuario;
         }
 
+        // Obtener usuario por ID
         public async Task<Usuario> ObtenerUsuario(Guid usuarioId)
         {
             var usuario = await _usuarioRepository.ObtenerUsuario(usuarioId)
@@ -77,12 +70,27 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             return usuario;
         }
 
-        // ✅ CORREGIDO: Con ToListAsync()
+        // Obtener usuario por username
+        public async Task<Usuario?> ObtenerUsuarioPorUsername(string username)
+        {
+            return await _usuarioRepository.ObtenerUsuarioPorUsername(username);
+        }
+
+        // Consultar todos los usuarios
         public async Task<IEnumerable<Usuario>> ConsultarUsuarios()
         {
             return await _usuarioRepository.ConsultarUsuarios().ToListAsync();
         }
 
+        // Consultar usuarios activos
+        public async Task<IEnumerable<Usuario>> ConsultarUsuariosActivos()
+        {
+            return await _usuarioRepository.ConsultarUsuarios()
+                .Where(u => u.Activo)
+                .ToListAsync();
+        }
+
+        // Actualizar usuario
         public async Task<Usuario> ActualizarUsuario(Guid usuarioId, string nombre, string username, bool activo)
         {
             var usuario = await ObtenerUsuario(usuarioId);
@@ -100,6 +108,7 @@ namespace Bisoft.Consultorio.Aplicacion.Services
             return usuario;
         }
 
+        // Cambiar contraseña
         public async Task<Usuario> CambiarPassword(Guid usuarioId, string nuevaPassword)
         {
             var usuario = await ObtenerUsuario(usuarioId);
@@ -111,6 +120,64 @@ namespace Bisoft.Consultorio.Aplicacion.Services
 
             _logger.LogInformation("Password cambiada para usuario: {Username}", usuario.Username);
             return usuario;
+        }
+
+        // Cambiar contraseña con verificación
+        public async Task<Usuario> CambiarPasswordConVerificacion(Guid usuarioId, string passwordActual, string nuevaPassword)
+        {
+            var usuario = await ObtenerUsuario(usuarioId);
+
+            // Verificar contraseña actual
+            var hashActual = PasswordHelper.HashPassword(passwordActual);
+            if (usuario.PasswordHash != hashActual)
+                throw new InvalidOperationException("La contraseña actual es incorrecta");
+
+            // Cambiar contraseña
+            var nuevoHash = PasswordHelper.HashPassword(nuevaPassword);
+            usuario.CambiarPassword(nuevoHash);
+
+            await _usuarioRepository.ActualizarUsuario(usuario);
+            await _usuarioRepository.GuardarCambios();
+
+            _logger.LogInformation("Password cambiada para usuario: {Username}", usuario.Username);
+            return usuario;
+        }
+
+        // Eliminar usuario (baja lógica)
+        public async Task<bool> EliminarUsuario(Guid usuarioId)
+        {
+            var usuario = await _usuarioRepository.ObtenerUsuario(usuarioId);
+            if (usuario == null)
+                return false;
+
+            // Baja lógica: desactivar en lugar de eliminar
+            usuario.Activo = false;
+            await _usuarioRepository.ActualizarUsuario(usuario);
+            await _usuarioRepository.GuardarCambios();
+
+            _logger.LogInformation("Usuario desactivado: {Username}", usuario.Username);
+            return true;
+        }
+
+        // Eliminar usuario (baja física)
+        public async Task<bool> EliminarUsuarioFisico(Guid usuarioId)
+        {
+            var usuario = await _usuarioRepository.ObtenerUsuario(usuarioId);
+            if (usuario == null)
+                return false;
+
+            await _usuarioRepository.EliminarUsuario(usuario);
+            await _usuarioRepository.GuardarCambios();
+
+            _logger.LogInformation("Usuario eliminado físicamente: {Username}", usuario.Username);
+            return true;
+        }
+
+        // Verificar existencia
+        public async Task<bool> ExisteUsuario(string username)
+        {
+            var usuario = await _usuarioRepository.ObtenerUsuarioPorUsername(username);
+            return usuario != null;
         }
     }
 }

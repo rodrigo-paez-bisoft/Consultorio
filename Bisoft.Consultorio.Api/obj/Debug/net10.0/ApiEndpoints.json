@@ -1,15 +1,213 @@
 [
   {
-    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Security.Login\u002B\u003C\u003Ec",
-    "Method": "\u003CMapLogin\u003Eb__1_0",
-    "RelativePath": "api/auth/Login",
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "ConsultarTodos",
+    "RelativePath": "api/api/usuarios/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "ConsultarPorId",
+    "RelativePath": "api/api/usuarios/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/api/usuarios/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Usuario.ActualizarUsuarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/api/usuarios/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "CambiarPassword",
+    "RelativePath": "api/api/usuarios/{id:guid}/cambiar-password",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Usuario.CambiarPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "ConsultarActivos",
+    "RelativePath": "api/api/usuarios/activos",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "RegistrarUsuario",
+    "RelativePath": "api/api/usuarios/registrar",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Bisoft.Consultorio.Api.DTOs.Security.LoginRequest",
+        "Type": "Bisoft.Consultorio.Api.DTOs.Usuario.RegistrarUsuarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Usuarios.UsuariosEndpointGroup",
+    "Method": "ConsultarPorUsername",
+    "RelativePath": "api/api/usuarios/username/{username}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuarios"
+    ]
+  },
+  {
+    "ContainingType": "Bisoft.Consultorio.Api.Endpoints.Security.Login\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLogin\u003Eb__1_0",
+    "RelativePath": "api/auth/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bisoft.Consultorio.Api.Endpoints.Security.LoginRequest",
         "IsRequired": true
       }
     ],
@@ -30,7 +228,7 @@
     "Tags": [
       "Seguridad"
     ],
-    "EndpointName": "Login",
+    "EndpointName": "LoginEndpoint",
     "Description": "Permite iniciar sesion",
     "Summary": "Login"
   },
